@@ -69,7 +69,7 @@ a img, a, img { border: none; outline: none; text-decoration: none;}
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-input { -webkit-appearance: none; border-radius: 0; }
+input { -webkit-appearance: none; appearance: none; border-radius: 0; }
 input:focus { outline: none;}
 .mobileSpace { visibility:hidden; }
 strong {font-weight: 600; }
@@ -214,6 +214,7 @@ blockquote p {
   text-transform: uppercase;
   opacity:0.7;
   -webkit-backface-visibility:hidden;
+  backface-visibility: hidden;
 }
 #godown {
   bottom: 20px;
@@ -551,7 +552,7 @@ h5 {
 #socialsection { width: 90%; height: 40px; opacity: 0; left: 5%; bottom: -1px; position: fixed; z-index: 105; color: #ffffff; border-radius: 3px 3px 0 0; transition: all 0.3s ease-in-out;}
 #socialsection.hide { height: 100px; }
 #socialsection:hover { cursor: pointer; }
-#social-left { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #262B30; float: left; min-height: 100px; border-radius: 3px 0 0 0; transition: all 0.3s ease-in-out;}
+#social-left { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #262B30;  min-height: 100px; border-radius: 3px 0 0 0; transition: all 0.3s ease-in-out;}
 #social-left:before { content: "Follow Me"; font-size: 15px; font-weight: 600; display: block; padding-top: 13px; color: #ffffff; }
 #social-left a { min-height: 24px; color: #ffffff; display: inline-block; margin-top: 5px;}
 #social-left [class^="icon-"]:before, #social-left [class*=" icon-"]:before {font-size: 24px; min-height: 24px; }
@@ -659,6 +660,7 @@ h5 {
 }
 .one_third_last {
   float: right;
+  clear: right;
   margin-bottom: 5%;
   width: 31%;
   text-align: left;
@@ -673,7 +675,7 @@ h5 {
   background: none repeat scroll 0 0 #0888F0;
   border-radius: 3px;
   box-shadow: none;
-  margin-bottom: 1.25em;
+  margin-bottom: -.75em;
   padding: 10px;
   margin-top: -4px;
   transition: all 0.3s ease-in-out;
@@ -982,6 +984,7 @@ Responsive Syling
   .bigspace { height: 1em; }
   #CV .one_third h2 { margin: 0; }
   .center-align { margin-left: 4%; }
+  .project-row { margin-bottom: 1em; }
   .one_third {
     float: left;
     text-align: left;
