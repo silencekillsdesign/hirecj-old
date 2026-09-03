@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <title>Cards in Bars — CJ Williams</title>
+  <meta name="description" content="A party game for bars. Your phone is your hand, the TV is the table, and there is nothing to install." />
+  <meta property="og:title" content="Cards in Bars — CJ Williams" />
+  <meta property="og:image" content="https://hirecj.com/img/cards-in-bars.png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="pp">
+  <header class="pp-bar">
+    <a class="pp-name" href="/">CJ Williams</a>
+    <a class="pp-back" href="/#Portfolio">&larr; All Work</a>
+  </header>
+
+  <main class="pp-main">
+    <p class="pp-kicker">Case Study</p>
+    <h1>Cards in Bars</h1>
+    <p class="pp-subtitle">A party game for bars. Your phone is your hand, the TV is the table, and there is nothing to install.</p>
+
+    <img class="pp-hero" src="/img/cards-in-bars.png" alt="Cards in Bars" />
+
+    <dl class="pp-facts">
+      <div><dt>Client</dt><dd>Personal product — first venue is Innjoy in Logan Square, with its own deck of local cards</dd></div>
+      <div><dt>Role</dt><dd>Product Designer & Sole Developer</dd></div>
+      <div><dt>Timeline</dt><dd>Aug 2026 – Present</dd></div>
+      <div><dt>Team</dt><dd>Solo — design, front end, back end, deployment</dd></div>
+    </dl>
+
+    <p class="pp-tags">Product Design &middot; Multi-Surface UX &middot; 10-Foot UI &middot; Real-Time Systems &middot; Full-Stack Development</p>
+
+    <section>
+      <h2>The Challenge</h2>
+      <p>A Cards Against Humanity–style party game built for bars. The venue puts a QR and a permanent code on a TV; patrons scan it, type a name, and are dealt in from their own phone.</p>
+      <p>The core problem: split one game across two surfaces — a private phone and a public screen — so each shows what its audience needs and nothing it shouldn't. In a loud room, ten feet from the TV, with a drink in one hand.</p>
+    </section>
+
+    <section>
+      <h2>What I Did</h2>
+      <div class="pp-work"><h3><span>01</span> Getting in without an app</h3><p class="pp-problem">Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.</p><p>A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.</p></div>
+      <div class="pp-work"><h3><span>02</span> Two screens, one game</h3><p class="pp-problem">The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.</p><p>Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.</p></div>
+      <div class="pp-work"><h3><span>03</span> Designing for ten feet</h3><p class="pp-problem">The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.</p><p>A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.</p></div>
+      <div class="pp-work"><h3><span>04</span> The review that found real bugs</h3><p class="pp-problem">The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.</p><p>A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.</p></div>
+    </section>
+
+    <section class="pp-cols">
+      <div>
+        <h3>How It Was Validated</h3>
+        <ul><li>A headless harness drives real games over sockets — 23 assertions covering the deal, rotation, round expiry, discards and the 20-round cap</li><li>A screen-by-screen design review of all 12 player screens and the TV, judged against measured values rather than impressions</li><li>Killed the server mid-round in production to confirm the table and every phone recovered</li></ul>
+      </div>
+      <div>
+        <h3>After Launch</h3>
+        <ul><li>Deployed on a persistent host with a mounted volume — games survive restarts and deploys</li><li>A Playwright rig drives a real game and photographs both surfaces, so every screenshot regenerates in one command</li><li>Next: the bar-facing admin screens, and a first full night at Innjoy</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Outcome</h2>
+      <div class="pp-metrics"><div><strong>2,495</strong><span>Cards in the deck</span></div><div><strong>0</strong><span>Installs to play</span></div><div><strong>23</strong><span>Automated rule checks</span></div></div>
+      <p class="pp-summary">Reviewing an interface properly turned out to be quality control, not decoration — walking every screen in the order a player meets it found three real bugs that functional tests had missed. Building it alone meant every design decision had to survive contact with the system implementing it.</p>
+    </section>
+
+    <div class="pp-links">
+      <a class="pp-button" href="https://cards-against-chicago-production.up.railway.app" target="_blank" rel="noopener">Play It Live</a>
+      <a class="pp-button pp-button-ghost" href="/#Portfolio">&larr; Back to All Work</a>
+    </div>
+  </main>
+
+  <footer class="pp-footer">
+    <p>Humboldt Park &middot; Chicago, IL 60647</p>
+    <p><a href="mailto:cj@silencekillsdesign.com">cj@silencekillsdesign.com</a></p>
+    <p class="pp-copyright">Copyright 2026 &middot; CJ Williams</p>
+  </footer>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y4FNXF79M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1Y4FNXF79M');
+  </script>
+</body>
+</html>

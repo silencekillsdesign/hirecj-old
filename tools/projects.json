@@ -1,0 +1,248 @@
+{
+  "projects": [
+    {
+      "slug": "purchasing-platform",
+      "kicker": "Case Study",
+      "title": "Purchasing Platform",
+      "subtitle": "From icon-only navigation and broken search URLs to a structured, AI-powered procurement experience.",
+      "hero": "/img/ppmockup.png",
+      "client": "A B2B procurement SaaS serving mid-market and enterprise buyers across North America",
+      "role": "Lead UX Designer",
+      "timeline": "2024 – Present",
+      "team": "Cross-functional team of 6 (Product, Engineering, QA, Marketing)",
+      "tags": ["UX Research", "Design Systems", "Information Architecture", "AI Integration", "Usability Testing"],
+      "challenge": [
+        "The platform had a powerful AI search engine (HawkSearch) under the hood and no experience to match it. Navigation was a row of unlabeled icons. Search generated broken, dead-end URLs. The platform's most powerful feature — AI search across purchase histories, warranties, and supplier catalogs — was invisible to users and unknown to most of the team.",
+        "The mandate: make what exists work, introduce proven e-commerce patterns, then design the leap — an AI-native procurement experience."
+      ],
+      "work": [
+        {"title": "Design System", "problem": "40+ button variants, no shared visual language, and every new feature compounding the inconsistency.", "solution": "A token-first design system built in Figma — primitives through templates, every component documented with interaction states and responsive specs."},
+        {"title": "Mobile Experience", "problem": "No responsive foundation — broken layouts, inaccessible touch targets, and purchasing flows that punished mobile users.", "solution": "A mobile-first rebuild of the full journey — discovery, cart, checkout, support, and account — modeled on proven e-commerce patterns. Task completion rose across every flow."},
+        {"title": "Platform Navigation", "problem": "“Buying Desk” opened a quote form. “Vendors” led to info pages. Everything else was an unlabeled icon — and the storefront and admin ran on two different design systems.", "solution": "Labeled, hierarchy-first navigation with breadcrumbs, unified across storefront and admin. One coherent product instead of two disconnected ones."},
+        {"title": "Shopping Experience", "problem": "Refrigerators filed under “Anchors & Setup.” Broken search URLs. 83% mobile cart abandonment and an 85% exit rate right after purchase.", "solution": "A rebuilt taxonomy that matches how buyers search, clean faceted-search URLs, product pages that build buying confidence, and a streamlined checkout — with HawkSearch reworked into rapid, navigable results."},
+        {"title": "Platform Redesign", "problem": "The quick wins proved the platform could work — but they were still patches on an aging foundation.", "solution": "A ground-up reimagining: full design-system overhaul plus mid-fi and hi-fi concepts for a search-first, AI-native procurement experience. Demonstrated to stakeholders and strongly received; cut before shipping by a market downturn."}
+      ],
+      "validation": [
+        "Heuristic evaluation against Nielsen's 10 usability principles",
+        "Tree testing of the restructured navigation taxonomy",
+        "Moderated usability sessions on search and registration flows",
+        "WCAG 2.1 AA accessibility audit before handoff"
+      ],
+      "iteration": [
+        "Redesign concepts demonstrated to the full stakeholder group",
+        "HawkSearch AI capabilities documented and socialized internally",
+        "URL and breadcrumb patterns set as platform standards",
+        "Continuous Hotjar session-recording feedback loop"
+      ],
+      "metrics": [
+        {"value": "54%", "label": "Improvement in session purchase completion"},
+        {"value": "0→1", "label": "Navigation architecture built from scratch"},
+        {"value": "40+", "label": "Component variants consolidated into a single system"}
+      ],
+      "summary": "The platform's AI was genuinely competitive — what was missing was the UX scaffolding to make it usable. Each workstream added a layer: a design system, mobile foundations, real navigation, and a validated vision for an AI-native future.",
+      "links": [
+        {"label": "Initial Findings", "href": "https://www.figma.com/deck/Dv5K3YRPaSjDMEUZ19C6rl"},
+        {"label": "Case Study Deck", "href": "https://www.figma.com/deck/tjlqoAI6ObHsuxiNTZ13td"}
+      ]
+    },
+    {
+      "slug": "greenridge",
+      "kicker": "Case Study",
+      "title": "Greenridge Naturals",
+      "subtitle": "A ground-up rebrand and e-commerce overhaul — 420% sales growth and 230% traffic growth in twelve months.",
+      "hero": "/img/greenridge-redesign.jpg",
+      "client": "Greenridge Naturals — a DTC wellness brand scaling fast on an outdated identity",
+      "role": "Director of E-Commerce & User Experience",
+      "timeline": "Dec 2022 – Dec 2023",
+      "team": "Solo designer leading a cross-functional team (Dev, Operations, Marketing)",
+      "tags": ["Brand Strategy", "E-Commerce UX", "Design Systems", "Technical SEO", "Analytics"],
+      "challenge": [
+        "No design system, a 9-step checkout with 78% mobile abandonment, zero SEO metadata or conversion tracking, and shipping misconfiguration bleeding $4–8 of margin on every order.",
+        "As sole design and digital lead reporting directly to the CEO, I owned brand, UX, front-end, platform migration, SEO, and marketing in a 12-month ground-up rebuild."
+      ],
+      "work": [
+        {"title": "Brand & Design System", "problem": "A legacy identity applied inconsistently across packaging, web, and social — undermining credibility at every touchpoint.", "solution": "A rebuilt brand on a clean typographic foundation, systematized in Figma: brand tokens, product cards, collection grids, banners, and subscription UI — all responsive, all documented."},
+        {"title": "Site Architecture", "problem": "Product discovery was a flat category list — no filtering, no search logic, no merchandising.", "solution": "Catalog reorganized around three consumer need states — Daily Wellness, Targeted Support, Bundles & Value — with faceted filtering and best-sellers surfaced at the top level."},
+        {"title": "Checkout & Conversion", "problem": "Nine checkout steps, no guest option — 78% mobile cart abandonment.", "solution": "Checkout compressed to 4 steps with guest-first default. In testing, every participant completed purchase in under 3 minutes versus 8+ on the legacy flow."},
+        {"title": "Platform & Growth Engine", "problem": "No structured SEO, no conversion tracking, and misconfigured shipping costing $4–8 per order.", "solution": "Headless Shopify migration with Klaviyo, GA4 + GTM, ShipBob (corrected zone logic), and Yotpo — every integration mapped to a specific conversion or retention objective."}
+      ],
+      "validation": [
+        "Moderated usability testing on the redesigned checkout (n=6)",
+        "Tree testing of new navigation — 94% found products within 2 clicks",
+        "Technical SEO audit; schema markup on 100% of product pages",
+        "Cross-device QA across 12 device/browser combinations"
+      ],
+      "iteration": [
+        "GA4 + GTM event tracking across the full funnel",
+        "Klaviyo automations: abandoned cart, post-purchase, win-back, welcome",
+        "Monthly SEO content calendar targeting high-intent keywords",
+        "Quarterly Hotjar heatmap and session-recording reviews"
+      ],
+      "metrics": [
+        {"value": "420%", "label": "Increase in online sales YoY"},
+        {"value": "230%", "label": "Growth in organic traffic YoY"},
+        {"value": "40%", "label": "Reduction in shipping costs"}
+      ],
+      "summary": "Brand, funnel, backend, and acquisition rebuilt simultaneously — compounding returns no isolated fix could produce.",
+      "links": [
+        {"label": "The Figma File", "href": "https://www.figma.com/file/72bpNwpwkJZchV2tS56f88/Greenridge---Design-System?type=design&node-id=849%3A1317"},
+        {"label": "Live Site", "href": "https://greenridgenaturals.com"}
+      ]
+    },
+    {
+      "slug": "hoists",
+      "kicker": "Case Study",
+      "title": "Building Hoists.com",
+      "subtitle": "From no digital presence to $1.2M in year one — now $12M a year. Built by learning an industry from scratch.",
+      "hero": "/img/hoists.jpg",
+      "client": "Sievert Crane & Hoist — the DTC arm, built from zero",
+      "role": "Director of E-Commerce & Product Development",
+      "timeline": "Dec 2019 – Feb 2023",
+      "team": "Scaled from solo to a 5-person department (UX, Content, Development, Operations)",
+      "tags": ["Information Architecture", "E-Commerce UX", "AI Integration", "ERP Integration", "Technical SEO"],
+      "challenge": [
+        "No catalog, no product data — just 3,500+ SKUs in an ERP and a sales team that knew the product cold. Industrial buyers are deeply technical, and every spec matters. The filter UI exposed every value as its own checkbox — buyers averaged 5,000–10,000 page visits to find the right product.",
+        "As founding digital lead reporting to the President, I was solo designer, developer, and strategist for 18 months, then scaled the department to five."
+      ],
+      "work": [
+        {"title": "Domain Immersion", "problem": "I knew e-commerce, not hoists — and product knowledge lived only in PDF spec sheets, ERP line items, and people's heads.", "solution": "Ran between sales, mechanics, techs, and metal fabricators to learn the domain firsthand — then built the entire catalog around real buyer mental models instead of the spec sheet."},
+        {"title": "Catalog Architecture", "problem": "No taxonomy for 3,500+ SKUs spanning hoists, cranes, trolleys, and accessories.", "solution": "A five-tier hierarchy — Product Family → Type → Capacity Class → Configuration → Variant — with smart filter logic suppressing incompatible combinations in real time."},
+        {"title": "Smart Range Filters", "problem": "Every spec value was a standalone checkbox — lift heights from 1ft up, capacities to 20,000 lbs. Hundreds of options, no grouping, 5,000–10,000 visits per purchase.", "solution": "Hundreds of checkboxes collapsed into intelligent capacity and height ranges that match how buyers think — light, medium, heavy industrial. Average purchase journey: two visits."},
+        {"title": "AI Chat & ERP Integration", "problem": "Technical questions bottlenecked on the sales team. Freight quotes took 48 hours. Availability changed daily through pandemic supply chaos.", "solution": "An AI chat tool answering spec questions in real time, Epicor ERP sync for live inventory and lead times, and cart-level LTL freight via Freightquote."}
+      ],
+      "validation": [
+        "Domain immersion with sales, mechanics, techs, and fabricators",
+        "Tree testing of the 5-tier taxonomy — 91% task success",
+        "Cognitive walkthroughs with maintenance managers and procurement officers",
+        "ERP data QA across 3,500+ SKUs before launch"
+      ],
+      "iteration": [
+        "AI chat iterated continuously from real buyer questions",
+        "Monthly technical SEO content — organic traffic +600% in 18 months",
+        "Support-ticket analysis drove two major IA iterations",
+        "Quarterly buyer interviews as the catalog expanded"
+      ],
+      "metrics": [
+        {"value": "$1.2M", "label": "Revenue generated in year one"},
+        {"value": "$12M", "label": "Current annual revenue"},
+        {"value": "2", "label": "Avg. visits to purchase (down from 5,000–10,000)"}
+      ],
+      "summary": "One decision changed everything: make the filters match how buyers think, not how the spec sheet is organized. $1.2M in year one, $2M in year two, $12M annually now — that's information architecture compounding.",
+      "links": [
+        {"label": "Hoists.com Live", "href": "https://hoists.com"},
+        {"label": "Pre-Hoists.com", "href": "https://www.sievertcrane.com/"}
+      ]
+    },
+    {
+      "slug": "cards-in-bars",
+      "kicker": "Case Study",
+      "title": "Cards in Bars",
+      "subtitle": "A party game for bars. Your phone is your hand, the TV is the table, and there is nothing to install.",
+      "hero": "/img/cards-in-bars.png",
+      "client": "Personal product — first venue is Innjoy in Logan Square, with its own deck of local cards",
+      "role": "Product Designer & Sole Developer",
+      "timeline": "Aug 2026 – Present",
+      "team": "Solo — design, front end, back end, deployment",
+      "tags": ["Product Design", "Multi-Surface UX", "10-Foot UI", "Real-Time Systems", "Full-Stack Development"],
+      "challenge": [
+        "A Cards Against Humanity–style party game built for bars. The venue puts a QR and a permanent code on a TV; patrons scan it, type a name, and are dealt in from their own phone.",
+        "The core problem: split one game across two surfaces — a private phone and a public screen — so each shows what its audience needs and nothing it shouldn't. In a loud room, ten feet from the TV, with a drink in one hand."
+      ],
+      "work": [
+        {"title": "Getting in without an app", "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.", "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password."},
+        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel."},
+        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile."},
+        {"title": "The review that found real bugs", "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.", "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room."}
+      ],
+      "validation": [
+        "A headless harness drives real games over sockets — 23 assertions covering the deal, rotation, round expiry, discards and the 20-round cap",
+        "A screen-by-screen design review of all 12 player screens and the TV, judged against measured values rather than impressions",
+        "Killed the server mid-round in production to confirm the table and every phone recovered"
+      ],
+      "iteration": [
+        "Deployed on a persistent host with a mounted volume — games survive restarts and deploys",
+        "A Playwright rig drives a real game and photographs both surfaces, so every screenshot regenerates in one command",
+        "Next: the bar-facing admin screens, and a first full night at Innjoy"
+      ],
+      "metrics": [
+        {"value": "2,495", "label": "Cards in the deck"},
+        {"value": "0", "label": "Installs to play"},
+        {"value": "23", "label": "Automated rule checks"}
+      ],
+      "summary": "Reviewing an interface properly turned out to be quality control, not decoration — walking every screen in the order a player meets it found three real bugs that functional tests had missed. Building it alone meant every design decision had to survive contact with the system implementing it.",
+      "links": [
+        {"label": "Play It Live", "href": "https://cards-against-chicago-production.up.railway.app"}
+      ]
+    },
+    {
+      "slug": "tedxchicago-2026",
+      "kicker": "Project",
+      "title": "TEDxChicago 2026 — We The People",
+      "subtitle": "A fully custom event landing page, hand-coded and shipped inside Squarespace's constraints.",
+      "hero": "/img/tedxchicago-2026.png",
+      "client": "TEDxChicago — the 2026 “We The People” event at the Harris Theater, Millennium Park (Oct 3, 2026)",
+      "role": "Designer & Front-End Developer",
+      "timeline": "2026",
+      "team": "With the TEDxChicago organizing team",
+      "tags": ["Visual Design", "Front-End", "Build Tooling", "Performance"],
+      "challenge": [
+        "TEDxChicago's site runs on Squarespace, but the 2026 event deserved a page the platform's templates couldn't produce — a bold, custom identity for the “We The People” theme with dot-matrix display type, the TEDx red quote-mark motif, and full creative control over layout and motion.",
+        "The constraint: it still had to live inside Squarespace — same domain, same nav and footer, editable by the team — without a separate host or framework."
+      ],
+      "work": [
+        {"title": "The page", "problem": "Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.", "solution": "A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome."},
+        {"title": "The deployment pipeline", "problem": "Squarespace only accepts pasted code blocks, and pasting a whole page on every change doesn't scale.", "solution": "A build script that strips the local dev chrome and emits a paste-ready embed, with CSS, JS, and assets served from the public GitHub repo via jsDelivr's CDN — so most changes ship with a git push and a cache purge, no Squarespace edits at all."},
+        {"title": "Working within CDN limits", "problem": "jsDelivr caps files at 20 MB, caches for 12 hours, and is case-sensitive — easy ways to break a live event page.", "solution": "Large source masters stay out of the repo with optimized web derivatives committed instead, cache-busting is versioned, and the purge step is part of the deploy routine."}
+      ],
+      "validation": [
+        "Every change verified on the live Squarespace embed, not just locally",
+        "CSS scoped with :where() to the page root — zero style collisions with Squarespace's own chrome",
+        "Structured data (JSON-LD event markup) for search"
+      ],
+      "iteration": [
+        "Speaker lineup section built and held ready to ship the moment the lineup is announced",
+        "Content updates ship via git push + CDN purge — no developer needed for copy changes in Squarespace blocks"
+      ],
+      "metrics": [],
+      "summary": "The page is live at tedxchicago.com powering the 2026 event — a custom-designed, hand-coded experience running invisibly inside a template platform, with a deploy pipeline the team can live with.",
+      "links": [
+        {"label": "Live Site", "href": "https://tedxchicago.com"}
+      ]
+    },
+    {
+      "slug": "floofer",
+      "kicker": "Case Study",
+      "title": "Floofer",
+      "subtitle": "Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time.",
+      "hero": "/img/floofer-mobile.png",
+      "client": "Personal product — in development",
+      "role": "Product Designer & Developer",
+      "timeline": "2026 – In development",
+      "team": "Solo — product, design system, and front end",
+      "tags": ["Product Design", "Design Systems", "Mobile UX", "Figma", "Nuxt 3"],
+      "challenge": [
+        "Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofer inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.",
+        "The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home."
+      ],
+      "work": [
+        {"title": "Urgency-first discovery", "problem": "Time-critical dogs get the same shelf position as every other listing.", "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore."},
+        {"title": "A real design system first", "problem": "Solo side projects usually skip the system and pay for it at every screen.", "solution": "A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc."},
+        {"title": "Kind interaction rules", "problem": "One mis-tap on a 'pass' is a dog someone never sees again.", "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes."}
+      ],
+      "validation": [
+        "Playwright smoke suite covering the core flows",
+        "Iterative element-by-element UX passes in live preview",
+        "Server-side proxies built for RescueGroups.org and Petfinder, with demo data powering development"
+      ],
+      "iteration": [
+        "Next: live shelter data keys, then a public beta deploy",
+        "Design system documented with a full rebuild procedure in the repo"
+      ],
+      "metrics": [],
+      "summary": "An app with a thesis: visibility should follow urgency, and matches should follow fit. Built system-first — the Figma library and its dark/light token modes came before the first screen, and every component in the app traces back to it.",
+      "links": [
+        {"label": "View the Code", "href": "https://github.com/silencekillsdesign/floofer"}
+      ]
+    }
+  ]
+}

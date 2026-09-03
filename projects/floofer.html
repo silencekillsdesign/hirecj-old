@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <title>Floofer — CJ Williams</title>
+  <meta name="description" content="Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time." />
+  <meta property="og:title" content="Floofer — CJ Williams" />
+  <meta property="og:image" content="https://hirecj.com/img/floofer-mobile.png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="pp">
+  <header class="pp-bar">
+    <a class="pp-name" href="/">CJ Williams</a>
+    <a class="pp-back" href="/#Portfolio">&larr; All Work</a>
+  </header>
+
+  <main class="pp-main">
+    <p class="pp-kicker">Case Study</p>
+    <h1>Floofer</h1>
+    <p class="pp-subtitle">Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time.</p>
+
+    <img class="pp-hero" src="/img/floofer-mobile.png" alt="Floofer" />
+
+    <dl class="pp-facts">
+      <div><dt>Client</dt><dd>Personal product — in development</dd></div>
+      <div><dt>Role</dt><dd>Product Designer & Developer</dd></div>
+      <div><dt>Timeline</dt><dd>2026 – In development</dd></div>
+      <div><dt>Team</dt><dd>Solo — product, design system, and front end</dd></div>
+    </dl>
+
+    <p class="pp-tags">Product Design &middot; Design Systems &middot; Mobile UX &middot; Figma &middot; Nuxt 3</p>
+
+    <section>
+      <h2>The Challenge</h2>
+      <p>Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofer inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.</p>
+      <p>The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home.</p>
+    </section>
+
+    <section>
+      <h2>What I Did</h2>
+      <div class="pp-work"><h3><span>01</span> Urgency-first discovery</h3><p class="pp-problem">Time-critical dogs get the same shelf position as every other listing.</p><p>A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.</p></div>
+      <div class="pp-work"><h3><span>02</span> A real design system first</h3><p class="pp-problem">Solo side projects usually skip the system and pay for it at every screen.</p><p>A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc.</p></div>
+      <div class="pp-work"><h3><span>03</span> Kind interaction rules</h3><p class="pp-problem">One mis-tap on a 'pass' is a dog someone never sees again.</p><p>No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.</p></div>
+    </section>
+
+    <section class="pp-cols">
+      <div>
+        <h3>How It Was Validated</h3>
+        <ul><li>Playwright smoke suite covering the core flows</li><li>Iterative element-by-element UX passes in live preview</li><li>Server-side proxies built for RescueGroups.org and Petfinder, with demo data powering development</li></ul>
+      </div>
+      <div>
+        <h3>After Launch</h3>
+        <ul><li>Next: live shelter data keys, then a public beta deploy</li><li>Design system documented with a full rebuild procedure in the repo</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Outcome</h2>
+      
+      <p class="pp-summary">An app with a thesis: visibility should follow urgency, and matches should follow fit. Built system-first — the Figma library and its dark/light token modes came before the first screen, and every component in the app traces back to it.</p>
+    </section>
+
+    <div class="pp-links">
+      <a class="pp-button" href="https://github.com/silencekillsdesign/floofer" target="_blank" rel="noopener">View the Code</a>
+      <a class="pp-button pp-button-ghost" href="/#Portfolio">&larr; Back to All Work</a>
+    </div>
+  </main>
+
+  <footer class="pp-footer">
+    <p>Humboldt Park &middot; Chicago, IL 60647</p>
+    <p><a href="mailto:cj@silencekillsdesign.com">cj@silencekillsdesign.com</a></p>
+    <p class="pp-copyright">Copyright 2026 &middot; CJ Williams</p>
+  </footer>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y4FNXF79M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1Y4FNXF79M');
+  </script>
+</body>
+</html>

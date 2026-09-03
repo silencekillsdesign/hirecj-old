@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <title>TEDxChicago 2026 — We The People — CJ Williams</title>
+  <meta name="description" content="A fully custom event landing page, hand-coded and shipped inside Squarespace's constraints." />
+  <meta property="og:title" content="TEDxChicago 2026 — We The People — CJ Williams" />
+  <meta property="og:image" content="https://hirecj.com/img/tedxchicago-2026.png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="pp">
+  <header class="pp-bar">
+    <a class="pp-name" href="/">CJ Williams</a>
+    <a class="pp-back" href="/#Portfolio">&larr; All Work</a>
+  </header>
+
+  <main class="pp-main">
+    <p class="pp-kicker">Project</p>
+    <h1>TEDxChicago 2026 — We The People</h1>
+    <p class="pp-subtitle">A fully custom event landing page, hand-coded and shipped inside Squarespace's constraints.</p>
+
+    <img class="pp-hero" src="/img/tedxchicago-2026.png" alt="TEDxChicago 2026 — We The People" />
+
+    <dl class="pp-facts">
+      <div><dt>Client</dt><dd>TEDxChicago — the 2026 “We The People” event at the Harris Theater, Millennium Park (Oct 3, 2026)</dd></div>
+      <div><dt>Role</dt><dd>Designer & Front-End Developer</dd></div>
+      <div><dt>Timeline</dt><dd>2026</dd></div>
+      <div><dt>Team</dt><dd>With the TEDxChicago organizing team</dd></div>
+    </dl>
+
+    <p class="pp-tags">Visual Design &middot; Front-End &middot; Build Tooling &middot; Performance</p>
+
+    <section>
+      <h2>The Challenge</h2>
+      <p>TEDxChicago's site runs on Squarespace, but the 2026 event deserved a page the platform's templates couldn't produce — a bold, custom identity for the “We The People” theme with dot-matrix display type, the TEDx red quote-mark motif, and full creative control over layout and motion.</p>
+      <p>The constraint: it still had to live inside Squarespace — same domain, same nav and footer, editable by the team — without a separate host or framework.</p>
+    </section>
+
+    <section>
+      <h2>What I Did</h2>
+      <div class="pp-work"><h3><span>01</span> The page</h3><p class="pp-problem">Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.</p><p>A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome.</p></div>
+      <div class="pp-work"><h3><span>02</span> The deployment pipeline</h3><p class="pp-problem">Squarespace only accepts pasted code blocks, and pasting a whole page on every change doesn't scale.</p><p>A build script that strips the local dev chrome and emits a paste-ready embed, with CSS, JS, and assets served from the public GitHub repo via jsDelivr's CDN — so most changes ship with a git push and a cache purge, no Squarespace edits at all.</p></div>
+      <div class="pp-work"><h3><span>03</span> Working within CDN limits</h3><p class="pp-problem">jsDelivr caps files at 20 MB, caches for 12 hours, and is case-sensitive — easy ways to break a live event page.</p><p>Large source masters stay out of the repo with optimized web derivatives committed instead, cache-busting is versioned, and the purge step is part of the deploy routine.</p></div>
+    </section>
+
+    <section class="pp-cols">
+      <div>
+        <h3>How It Was Validated</h3>
+        <ul><li>Every change verified on the live Squarespace embed, not just locally</li><li>CSS scoped with :where() to the page root — zero style collisions with Squarespace's own chrome</li><li>Structured data (JSON-LD event markup) for search</li></ul>
+      </div>
+      <div>
+        <h3>After Launch</h3>
+        <ul><li>Speaker lineup section built and held ready to ship the moment the lineup is announced</li><li>Content updates ship via git push + CDN purge — no developer needed for copy changes in Squarespace blocks</li></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Outcome</h2>
+      
+      <p class="pp-summary">The page is live at tedxchicago.com powering the 2026 event — a custom-designed, hand-coded experience running invisibly inside a template platform, with a deploy pipeline the team can live with.</p>
+    </section>
+
+    <div class="pp-links">
+      <a class="pp-button" href="https://tedxchicago.com" target="_blank" rel="noopener">Live Site</a>
+      <a class="pp-button pp-button-ghost" href="/#Portfolio">&larr; Back to All Work</a>
+    </div>
+  </main>
+
+  <footer class="pp-footer">
+    <p>Humboldt Park &middot; Chicago, IL 60647</p>
+    <p><a href="mailto:cj@silencekillsdesign.com">cj@silencekillsdesign.com</a></p>
+    <p class="pp-copyright">Copyright 2026 &middot; CJ Williams</p>
+  </footer>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y4FNXF79M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1Y4FNXF79M');
+  </script>
+</body>
+</html>
