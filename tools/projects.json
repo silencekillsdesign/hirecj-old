@@ -262,6 +262,38 @@
       ]
     },
     {
+      "slug": "runner-edq",
+      "kicker": "Case Study",
+      "title": "Runner EDQ",
+      "subtitle": "Five years as design lead for an enterprise data-quality suite — admin panels, end-user dashboards, and the sites that sold them.",
+      "hero": "/img/projects/runner/cleanemployee.png",
+      "client": "Runner EDQ — enterprise data quality software. The CLEAN_Data suite verifies addresses and contact data inside ERPs like Oracle, PeopleSoft, and Ellucian Banner, for customers from universities to enterprise HR teams",
+      "role": "Lead UX/UI Designer & Developer",
+      "timeline": "2015 – 2020",
+      "team": "In-house design lead, working closely with backend engineers, marketing, and sales",
+      "tags": ["Product Design", "SaaS Admin UI", "Dashboards", "Web Development", "Technical Marketing"],
+      "challenge": [
+        "Data-quality software lives in an unglamorous place: inside ERP systems, used by administrators who configure integrations and end users who just need clean contact data. The CLEAN_Data suite needed interfaces that made both audiences productive — and public-facing sites that could explain enterprise address verification to buyers.",
+        "As the company's lead UX/UI designer and developer, I owned both sides: the product interfaces and the marketing presence — while also leading graphic design and marketing campaigns. (Runner's sister company, SurveyDIG, was part of the same role — that's its own case study.)"
+      ],
+      "work": [
+        {"title": "CLEAN_Data Suite Admin Panels", "problem": "Admins configuring data validation and address verification across Oracle-integrated systems needed interfaces that didn't require a manual to operate.", "solution": "Responsive admin experiences for the suite — configuration, data validation, and address verification workflows designed to be self-evident. Customer savings of 30% annually were attributed to the combination of seamless design and the verification technology underneath."},
+        {"title": "End-User Dashboards", "problem": "The people whose data was being cleaned — HR teams, registrars, advancement offices — needed visibility without admin-level complexity.", "solution": "End-user dashboards for the CLEAN_Data suite, designed around what each role actually needs to see and act on."},
+        {"title": "The Sites That Sold It", "problem": "Enterprise data quality is a hard product to explain — and the primary websites and campaigns were part of my desk too.", "solution": "Designed and built the company's primary websites and product landing pages — like the CLEAN_Employee page above — plus the graphic design and marketing campaigns that supported sales."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [
+        {"value": "30%", "label": "Annual customer savings attributed to seamless design, data validation, and address verification"}
+      ],
+      "summary": "Five years covering the full surface of a B2B software company: product UX for admins and end users, the engineering handshake with backend teams, and the marketing design that kept the pipeline full.",
+      "links": [
+        {"label": "CLEAN_Employee Landing Page", "href": "https://cleanemployee.netlify.app"},
+        {"label": "CLEAN_Data Demo", "href": "https://www.youtube.com/watch?v=lO21YxiEh-w"},
+        {"label": "RunnerEDQ.com", "href": "https://www.runneredq.com"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
