@@ -982,8 +982,9 @@ Responsive Syling
   #Skills .half_column1, #Skills .half_column2, #Contact .half_column1, #Contact .half_column2 { width: 100%; }
   #Skills .half_column2 { margin-top: 50px; }
   #Portfolio .one_third, #Portfolio .one_third_last,
-  #CaseStudies .one_third, #CaseStudies .one_third_last { width: 100%; margin: 0 0 2.5em; }
+  #CaseStudies .one_third, #CaseStudies .one_third_last { width: 100%; margin: 0 0 4em; }
   #Portfolio .center-align, #CaseStudies .center-align { margin-left: 0; }
+  #Portfolio.content, #CaseStudies.content { width: 92%; }
   .bigspace { height: 1em; }
   #CV .one_third h2 { margin: 0; }
   .center-align { margin-left: 4%; }
