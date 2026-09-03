@@ -179,7 +179,7 @@
       "kicker": "Case Study",
       "title": "AllG Fabrication",
       "subtitle": "Moving a 30-year manufacturer from catalog-and-call ordering to true e-commerce — traffic up nearly 500%.",
-      "hero": "/img/port8.jpg",
+      "hero": "/img/projects/allg/computer-monitor-2.jpg",
       "client": "AllG Fabrication (Argyle, TX) — founded in 1987 as Advanced Lightning Technology, manufacturing for wireless carriers, lightning protection and grounding systems, and custom fabrication",
       "role": "Lead UX Designer & Brand Designer",
       "timeline": "Jan 2020 – Jul 2020",
@@ -190,9 +190,18 @@
         "I led brand design, wireframing of the new site, prototyping, and all UX/UI design, research, and testing."
       ],
       "work": [
-        {"title": "Brand Design", "problem": "A manufacturer with three distinct competencies — wireless-carrier manufacturing, lightning protection systems, and custom fabrication — needed an identity that presented them as one modern company online.", "solution": "Led the brand design for the new site, working alongside Bella Group on the broader creative and marketing effort."},
-        {"title": "From Catalog to Storefront", "problem": "Products lived in a catalog structure that assumed a sales rep would close every sale.", "solution": "Wireframed the new site's architecture from scratch, restructuring the product lines into a browsable, purchasable e-commerce experience."},
-        {"title": "Prototype, Test, Hand Off", "problem": "The build would happen on a custom ASP.NET framework by AllG's internal team — the design had to be validated and unambiguous before a line of code was written.", "solution": "High-fidelity Adobe XD prototypes, backed by UX research and testing, carried the design through stakeholder sign-off and into development."}
+        {"title": "Brand Design", "problem": "A manufacturer with three distinct competencies — wireless-carrier manufacturing, lightning protection systems, and custom fabrication — needed an identity that presented them as one modern company online.", "solution": "Led the brand design for the new site, working alongside Bella Group on the broader creative and marketing effort — an identity system carried through print, fleet, and the web under the tagline “Nothing is impossible.”", "image": "/img/projects/allg/ID-Package-2.png", "caption": "The allG identity package — letterhead, notecards, and envelope"},
+        {"title": "From Catalog to Storefront", "problem": "Products lived in a catalog structure that assumed a sales rep would close every sale.", "solution": "Wireframed the new site's architecture from scratch, restructuring the product lines into a browsable, purchasable e-commerce experience.", "image": "/img/projects/allg/computer-shot1.png", "caption": "The new storefront"},
+        {"title": "Prototype, Test, Hand Off", "problem": "The build would happen on a custom ASP.NET framework by AllG's internal team — the design had to be validated and unambiguous before a line of code was written.", "solution": "High-fidelity Adobe XD prototypes, backed by UX research and testing, carried the design through stakeholder sign-off and into development.", "image": "/img/projects/allg/computer-shot3.png", "caption": "Designed screens as delivered for the ASP.NET build"}
+      ],
+      "galleryTitle": "The Brand in the Wild",
+      "gallery": [
+        {"src": "/img/projects/allg/business-cards.jpg", "caption": "Business cards"},
+        {"src": "/img/projects/allg/truck.jpg", "caption": "Fleet branding"},
+        {"src": "/img/projects/allg/product-guide.jpg", "caption": "Product guide cover"},
+        {"src": "/img/projects/allg/product-guide2.jpg", "caption": "Product guide interior"},
+        {"src": "/img/projects/allg/computer-shot2.png", "caption": "Storefront category page"},
+        {"src": "/img/projects/allg/forklift.jpg", "caption": "Equipment branding"}
       ],
       "validation": [
         "UX research and usability testing across the redesign",

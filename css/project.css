@@ -119,6 +119,27 @@ body.pp {
 .pp-problem::before { content: "The problem — "; opacity: 0.65; font-weight: 700; }
 .pp-work p { margin: 0 0 8px; }
 
+/* Figures & gallery */
+.pp figure { margin: 20px 0 0; }
+.pp figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.pp figcaption { font-size: 14px; opacity: 0.75; margin-top: 8px; }
+.pp-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+.pp-gallery figure { margin: 0; }
+@media (max-width: 640px) {
+  .pp-gallery { grid-template-columns: 1fr; }
+}
+
 /* Two columns: validation / iteration */
 .pp-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 .pp-cols ul { margin: 0; padding-left: 20px; }
