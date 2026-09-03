@@ -149,10 +149,19 @@
         "The core problem: split one game across two surfaces — a private phone and a public screen — so each shows what its audience needs and nothing it shouldn't. In a loud room, ten feet from the TV, with a drink in one hand."
       ],
       "work": [
-        {"title": "Getting in without an app", "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.", "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password."},
-        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel."},
-        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile."},
-        {"title": "The review that found real bugs", "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.", "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room."}
+        {"title": "Getting in without an app", "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.", "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.", "image": "/img/projects/cac/02-phone-join.png", "caption": "Start or join — scan, type a name, dealt in", "narrow": true},
+        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.", "image": "/img/projects/cac/11-tv-judging.png", "caption": "Judging on the TV — every answer face-up for the room, while each phone shows only its own card"},
+        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.", "image": "/img/projects/cac/06-tv-playing.png", "caption": "The table view — prompt, players, and round state sized for the back of the room"},
+        {"title": "The review that found real bugs", "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.", "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.", "image": "/img/projects/cac/07-phone-hand.png", "caption": "Your hand — private to your phone", "narrow": true}
+      ],
+      "galleryTitle": "Both Surfaces",
+      "gallery": [
+        {"src": "/img/projects/cac/01-phone-splash.png", "caption": "Splash", "narrow": true},
+        {"src": "/img/projects/cac/05-phone-lobby-ready.png", "caption": "Ready up", "narrow": true},
+        {"src": "/img/projects/cac/14-phone-write-your-own.png", "caption": "Write your own card", "narrow": true},
+        {"src": "/img/projects/cac/09-phone-card-is-in.png", "caption": "Card is in", "narrow": true},
+        {"src": "/img/projects/cac/18-phone-scoreboard.png", "caption": "Scores", "narrow": true},
+        {"src": "/img/projects/cac/13-tv-result.png", "caption": "Round result on the TV"}
       ],
       "validation": [
         "A headless harness drives real games over sockets — 23 assertions covering the deal, rotation, round expiry, discards and the 20-round cap",
@@ -270,9 +279,9 @@
         "The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home."
       ],
       "work": [
-        {"title": "Urgency-first discovery", "problem": "Time-critical dogs get the same shelf position as every other listing.", "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore."},
+        {"title": "Urgency-first discovery", "problem": "Time-critical dogs get the same shelf position as every other listing.", "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.", "image": "/img/projects/floofer/match-deck.png", "caption": "The match deck — Bruno, 5 days left, 3 miles away", "narrow": true},
         {"title": "A real design system first", "problem": "Solo side projects usually skip the system and pay for it at every screen.", "solution": "A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc."},
-        {"title": "Kind interaction rules", "problem": "One mis-tap on a 'pass' is a dog someone never sees again.", "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes."}
+        {"title": "Kind interaction rules", "problem": "One mis-tap on a 'pass' is a dog someone never sees again.", "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.", "image": "/img/projects/floofer/onboarding.png", "caption": "Sixty-second onboarding — fit questions, in plain language", "narrow": true}
       ],
       "validation": [
         "Playwright smoke suite covering the core flows",

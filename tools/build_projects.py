@@ -106,8 +106,9 @@ GALLERY = """
 """
 
 
-def figure(img, caption, cls="pp-fig"):
+def figure(img, caption, cls="pp-fig", narrow=False):
     cap = f"<figcaption>{caption}</figcaption>" if caption else ""
+    cls = (cls + " pp-narrow").strip() if narrow else cls
     return f'<figure class="{cls}"><img src="{img}" alt="{caption}" loading="lazy" />{cap}</figure>'
 
 
@@ -120,7 +121,7 @@ def build(p):
         f'<div class="pp-work"><h3><span>{i:02d}</span> {w["title"]}</h3>'
         f'<p class="pp-problem">{w["problem"]}</p>'
         f'<p>{w["solution"]}</p>'
-        + (figure(w["image"], w.get("caption", "")) if w.get("image") else "")
+        + (figure(w["image"], w.get("caption", ""), narrow=w.get("narrow", False)) if w.get("image") else "")
         + "</div>"
         for i, w in enumerate(p["work"], 1)
     )
@@ -128,7 +129,7 @@ def build(p):
     gallery = ""
     if p.get("gallery"):
         items = "".join(
-            "        " + figure(g["src"], g.get("caption", ""), cls="") + "\n"
+            "        " + figure(g["src"], g.get("caption", ""), cls="", narrow=g.get("narrow", False)) + "\n"
             for g in p["gallery"]
         )
         gallery = GALLERY.format(title=p.get("galleryTitle", "Gallery"), items=items)

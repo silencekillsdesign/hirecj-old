@@ -41,10 +41,10 @@
 
     <section>
       <h2>What I Did</h2>
-      <div class="pp-work"><h3><span>01</span> Getting in without an app</h3><p class="pp-problem">Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.</p><p>A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.</p></div>
-      <div class="pp-work"><h3><span>02</span> Two screens, one game</h3><p class="pp-problem">The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.</p><p>Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.</p></div>
-      <div class="pp-work"><h3><span>03</span> Designing for ten feet</h3><p class="pp-problem">The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.</p><p>A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.</p></div>
-      <div class="pp-work"><h3><span>04</span> The review that found real bugs</h3><p class="pp-problem">The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.</p><p>A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.</p></div>
+      <div class="pp-work"><h3><span>01</span> Getting in without an app</h3><p class="pp-problem">Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.</p><p>A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/cac/02-phone-join.png" alt="Start or join — scan, type a name, dealt in" loading="lazy" /><figcaption>Start or join — scan, type a name, dealt in</figcaption></figure></div>
+      <div class="pp-work"><h3><span>02</span> Two screens, one game</h3><p class="pp-problem">The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.</p><p>Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.</p><figure class="pp-fig"><img src="/img/projects/cac/11-tv-judging.png" alt="Judging on the TV — every answer face-up for the room, while each phone shows only its own card" loading="lazy" /><figcaption>Judging on the TV — every answer face-up for the room, while each phone shows only its own card</figcaption></figure></div>
+      <div class="pp-work"><h3><span>03</span> Designing for ten feet</h3><p class="pp-problem">The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.</p><p>A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.</p><figure class="pp-fig"><img src="/img/projects/cac/06-tv-playing.png" alt="The table view — prompt, players, and round state sized for the back of the room" loading="lazy" /><figcaption>The table view — prompt, players, and round state sized for the back of the room</figcaption></figure></div>
+      <div class="pp-work"><h3><span>04</span> The review that found real bugs</h3><p class="pp-problem">The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.</p><p>A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/cac/07-phone-hand.png" alt="Your hand — private to your phone" loading="lazy" /><figcaption>Your hand — private to your phone</figcaption></figure></div>
     </section>
 
     <section class="pp-cols">
@@ -62,6 +62,18 @@
       <h2>The Outcome</h2>
       <div class="pp-metrics"><div><strong>2,495</strong><span>Cards in the deck</span></div><div><strong>0</strong><span>Installs to play</span></div><div><strong>23</strong><span>Automated rule checks</span></div></div>
       <p class="pp-summary">Reviewing an interface properly turned out to be quality control, not decoration — walking every screen in the order a player meets it found three real bugs that functional tests had missed. Building it alone meant every design decision had to survive contact with the system implementing it.</p>
+    </section>
+
+    <section>
+      <h2>Both Surfaces</h2>
+      <div class="pp-gallery">
+        <figure class="pp-narrow"><img src="/img/projects/cac/01-phone-splash.png" alt="Splash" loading="lazy" /><figcaption>Splash</figcaption></figure>
+        <figure class="pp-narrow"><img src="/img/projects/cac/05-phone-lobby-ready.png" alt="Ready up" loading="lazy" /><figcaption>Ready up</figcaption></figure>
+        <figure class="pp-narrow"><img src="/img/projects/cac/14-phone-write-your-own.png" alt="Write your own card" loading="lazy" /><figcaption>Write your own card</figcaption></figure>
+        <figure class="pp-narrow"><img src="/img/projects/cac/09-phone-card-is-in.png" alt="Card is in" loading="lazy" /><figcaption>Card is in</figcaption></figure>
+        <figure class="pp-narrow"><img src="/img/projects/cac/18-phone-scoreboard.png" alt="Scores" loading="lazy" /><figcaption>Scores</figcaption></figure>
+        <figure class=""><img src="/img/projects/cac/13-tv-result.png" alt="Round result on the TV" loading="lazy" /><figcaption>Round result on the TV</figcaption></figure>
+      </div>
     </section>
 
     <div class="pp-links">

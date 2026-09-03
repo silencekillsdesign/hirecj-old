@@ -136,6 +136,8 @@ body.pp {
   align-items: start;
 }
 .pp-gallery figure { margin: 0; }
+.pp figure.pp-narrow { max-width: 340px; margin-left: auto; margin-right: auto; }
+.pp .pp-fig.pp-narrow { margin-left: 0; }
 @media (max-width: 640px) {
   .pp-gallery { grid-template-columns: 1fr; }
 }
