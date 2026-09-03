@@ -80,15 +80,13 @@ PAGE = """<!DOCTYPE html>
 
 PROCESS = """
     <section class="pp-cols">
-      <div>
-        <h3>How It Was Validated</h3>
-        <ul>{validation}</ul>
+{cols}    </section>
+"""
+
+PROCESS_COL = """      <div>
+        <h3>{heading}</h3>
+        <ul>{items}</ul>
       </div>
-      <div>
-        <h3>After Launch</h3>
-        <ul>{iteration}</ul>
-      </div>
-    </section>
 """
 
 OUTCOMES = """
@@ -112,12 +110,15 @@ def build(p):
         for i, w in enumerate(p["work"], 1)
     )
 
-    process = ""
-    if p.get("validation") or p.get("iteration"):
-        process = PROCESS.format(
-            validation="".join(f"<li>{v}</li>" for v in p.get("validation", [])),
-            iteration="".join(f"<li>{v}</li>" for v in p.get("iteration", [])),
-        )
+    cols = "".join(
+        PROCESS_COL.format(heading=heading, items="".join(f"<li>{v}</li>" for v in items))
+        for heading, items in [
+            ("How It Was Validated", p.get("validation", [])),
+            ("After Launch", p.get("iteration", [])),
+        ]
+        if items
+    )
+    process = PROCESS.format(cols=cols) if cols else ""
 
     outcomes = ""
     if p.get("metrics") or p.get("summary"):
