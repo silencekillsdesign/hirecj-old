@@ -229,6 +229,39 @@
       ]
     },
     {
+      "slug": "bridger-heating",
+      "kicker": "Case Study",
+      "title": "Bridger Heating & Cooling",
+      "subtitle": "A website untouched since 2007, rebuilt as a modern Vue/Nuxt site — form submissions up 5x, calls nearly doubled.",
+      "hero": "/img/projects/bridger/after-home.png",
+      "client": "Bridger Heating & Cooling — HVAC company serving Bozeman, Montana since 1998 (direct client)",
+      "role": "Lead UX Designer, Web Developer & Digital Marketing Strategist",
+      "timeline": "October 2024",
+      "team": "Solo",
+      "tags": ["UX Design", "Vue / Nuxt Development", "Technical SEO", "Local SEO", "JAMstack"],
+      "challenge": [
+        "The company's website hadn't been updated since 2007 — nearly two decades of web evolution had passed it by. Beyond the dated experience, the business was invisible where local customers actually look: no Google Business listing, no structured data, and no local search presence to speak of.",
+        "As a direct client engagement, I handled all of it solo — UX design, development, migration, deployment, and the technical SEO strategy."
+      ],
+      "work": [
+        {"title": "Redesign & Rebuild", "problem": "A 2007-era site couldn't represent a company that had been serving Bozeman for over 25 years — on any screen size.", "solution": "A ground-up redesign built as a custom Vue/Nuxt.js site: modern, fast, responsive, and structured around the two actions that matter for an HVAC business — call or send a service request.", "image": "/img/projects/bridger/after-services.png", "caption": "The rebuilt services page"},
+        {"title": "Local Search Foundation", "problem": "Customers searching “HVAC Bozeman” couldn't find the company — there was no Google Business listing and no structured data for search engines to work with.", "solution": "Set up their Google Business listing and implemented full schema.org LocalBusiness markup across the site, giving local search everything it needs to surface the business."},
+        {"title": "Migration & Free Hosting", "problem": "The old site carried a legacy hosting bill of over $40/month for a site that barely changed.", "solution": "Migrated everything to static hosting on Netlify — faster delivery, zero hosting cost, and deploys the owner never has to think about."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [
+        {"value": "5x", "label": "Increase in website form submissions"},
+        {"value": "~2x", "label": "Phone calls nearly doubled"},
+        {"value": "$40+/mo → $0", "label": "Hosting costs eliminated with static Netlify hosting"}
+      ],
+      "summary": "A small-business engagement covering the full stack of my work — UX, development, and search strategy. The site went from a 2007 relic to a modern Vue/Nuxt build that actually generates business: 5x the form submissions, nearly double the calls, and a hosting bill of zero.",
+      "links": [
+        {"label": "The Redesign", "href": "https://bridgerheating.com/"},
+        {"label": "The Old Website", "href": "https://web.archive.org/web/20220518224037/http://www.bridgerheating.com/"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
