@@ -294,6 +294,40 @@
       ]
     },
     {
+      "slug": "xtant-medical",
+      "kicker": "Case Study",
+      "title": "Xtant Medical",
+      "subtitle": "Six years — four in-house, two consulting — from graphic designer to digital marketing manager, through an $86M acquisition.",
+      "hero": "/img/port3.jpg",
+      "client": "Xtant Medical — a medical technology company that grew through an $86M acquisition during my tenure",
+      "role": "Graphic Designer → Digital Marketing Manager · Lead UX Designer & Webmaster",
+      "timeline": "2012 – 2016 in-house, consulting through 2018",
+      "team": "In-house marketing team; independent consultant for the final two years",
+      "tags": ["Brand Design", "UX Design", "Web Development", "Digital Marketing", "Print Design"],
+      "challenge": [
+        "I joined as a graphic designer and worked up to digital marketing manager — becoming the company's lead UX designer and webmaster along the way. The role spanned every surface the company showed the world: public websites, the internal sales portal, and all digital and print marketing material.",
+        "The defining event was an $86M acquisition — which meant a brand redesign and growth marketing push while keeping every existing channel running."
+      ],
+      "work": [
+        {"title": "Post-Acquisition Brand Redesign", "problem": "An $86M acquisition meant a new identity had to roll out across web, print, and sales channels without stalling the business.", "solution": "Spearheaded the brand redesign and the growth marketing that followed it — the rebrand presentation is linked below."},
+        {"title": "Public Websites", "problem": "The public web presence had to serve very different audiences — clinicians evaluating products and donors supporting the mission.", "solution": "Led the design, development, and ongoing management of the public-facing websites, growing traffic 45% and donor outreach 25%."},
+        {"title": "Internal Sales Portal", "problem": "Field reps needed product and sales material faster than the existing internal tools could deliver it.", "solution": "Built an improved internal sales portal that expedited field delivery time by nearly 50%."},
+        {"title": "Every Piece of Collateral", "problem": "Digital and print marketing material all ran through one desk.", "solution": "Led the design of all digital and print marketing material across the six-year engagement."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [
+        {"value": "45%", "label": "Increase in public website traffic"},
+        {"value": "25%", "label": "Increase in donor outreach"},
+        {"value": "~50%", "label": "Faster field delivery via the rebuilt sales portal"}
+      ],
+      "summary": "A six-year arc from graphic designer to digital marketing manager — proof that design, development, and marketing run better as one discipline. Public web, internal tools, brand, and print, all through a company-defining acquisition.",
+      "links": [
+        {"label": "Xtant Today", "href": "https://xtantmedical.com"},
+        {"label": "Rebrand Presentation (PPT)", "href": "/downloads/xtant-brand-presentation.pptx"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
