@@ -143,7 +143,7 @@ body.pp {
 
 /* Link buttons — matches the site's .button */
 .pp-links { margin: 50px 0 0; }
-.pp-button {
+.pp a.pp-button {
   padding: 15px 32px;
   display: inline-block;
   font-size: 15px;
@@ -157,13 +157,13 @@ body.pp {
   letter-spacing: 1px;
   border-radius: 3px;
 }
-.pp-button:hover { background-color: #262B30; color: #fff; }
-.pp-button-ghost {
+.pp a.pp-button:hover { background-color: #262B30; color: #fff; }
+.pp a.pp-button-ghost {
   background: none;
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.6);
 }
-.pp-button-ghost:hover { background-color: #fff; color: #0b86c8; border-color: #fff; }
+.pp a.pp-button-ghost:hover { background-color: #fff; color: #0b86c8; border-color: #fff; }
 
 /* Footer */
 .pp-footer {
