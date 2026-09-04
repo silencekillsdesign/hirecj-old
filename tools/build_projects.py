@@ -122,6 +122,13 @@ def build(p):
         f'<p class="pp-problem">{w["problem"]}</p>'
         f'<p>{w["solution"]}</p>'
         + (figure(w["image"], w.get("caption", ""), narrow=w.get("narrow", False)) if w.get("image") else "")
+        + (
+            f'<div class="pp-embed"><iframe src="{w["embed"]}" loading="lazy" '
+            f'allowfullscreen title="{w.get("caption", w["title"])}"></iframe>'
+            + (f'<p class="pp-embed-cap">{w["caption"]}</p>' if w.get("caption") else "")
+            + "</div>"
+            if w.get("embed") else ""
+        )
         + "</div>"
         for i, w in enumerate(p["work"], 1)
     )
