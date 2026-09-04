@@ -21,7 +21,7 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:title" content="{title} — CJ Williams" />
   <meta property="og:image" content="https://hirecj.com{hero}" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
-  <link href="/css/project.css" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css?v=2" rel="stylesheet" type="text/css" />
 </head>
 <body class="pp">
   <header class="pp-bar">
