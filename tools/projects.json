@@ -391,6 +391,39 @@
       ]
     },
     {
+      "slug": "silencekillsdesign",
+      "kicker": "The Freelance Studio",
+      "title": "SilenceKillsDesign",
+      "subtitle": "Seven years of independent practice — 70+ clients, hundreds of projects, every discipline in the stack.",
+      "hero": "/img/projects/skd/home.png",
+      "client": "SilenceKillsDesign — my own freelance studio: a full-service digital creative agency focused on development, design, SEO, and marketing",
+      "role": "Founder — designer, developer, marketer, producer",
+      "timeline": "2014 – 2021",
+      "team": "Solo practice",
+      "tags": ["Branding", "Marketing & Advertising", "Software Development", "Audio / Video Production", "SEO"],
+      "challenge": [
+        "From 2014 to 2021, SilenceKillsDesign was my freelance company — and the answer to a question every small client asks: why hire four vendors when one person can carry the brand, the site, the marketing, and the media?",
+        "Over seven years the studio served more than 70 clients across hundreds of projects, spanning branding, marketing, advertising, software development, and audio/video production. The studio's name still carries my independent work today — it's the byline behind several projects on this site."
+      ],
+      "work": [
+        {"title": "Branding", "problem": "Small businesses rarely have an identity that matches the quality of their work.", "solution": "Logos, identity systems, and brand foundations that clients could grow into — the discipline that anchored most engagements."},
+        {"title": "Marketing & Advertising", "problem": "A brand without reach is a file on a shelf.", "solution": "Campaigns, content, SEO, and advertising that turned identities into qualified leads."},
+        {"title": "Software & Web Development", "problem": "Most agencies design it and hand it off; most developers build it and never question the design.", "solution": "Designed and built as one motion — websites and software carried from concept through deployment."},
+        {"title": "Audio / Video Production", "problem": "Clients needed media as often as they needed pixels.", "solution": "Audio and video production in-house — the studio's range meant the whole deliverable, not a referral."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [
+        {"value": "70+", "label": "Clients served"},
+        {"value": "100s", "label": "Of projects delivered"},
+        {"value": "7", "label": "Years of independent practice"}
+      ],
+      "summary": "The studio is where the generalist range on this portfolio comes from — brand, code, marketing, and media practiced as one craft, for anyone from a construction company to a SaaS startup.",
+      "links": [
+        {"label": "SilenceKillsDesign.com", "href": "https://silencekillsdesign.com"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
