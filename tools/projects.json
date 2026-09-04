@@ -362,6 +362,35 @@
       ]
     },
     {
+      "slug": "chicago-ev",
+      "kicker": "Project",
+      "title": "Chicago EV",
+      "subtitle": "An informational site launched to meet a moment — Illinois' 2022 EV-charger rebate — for a new sibling of the Sievert companies.",
+      "hero": "/img/projects/chicagoev/home.png",
+      "client": "Chicago EV — a sibling company of Sievert Electric and <a href=\"/projects/hoists.html\">Hoists.com</a>, offering EV-charging installation for large parking complexes, commercial properties, and multi-unit residential buildings",
+      "role": "UX Research & Design, Front-End Development, Content, Technical SEO",
+      "timeline": "2022",
+      "team": "Digital lead within the Sievert family of companies",
+      "tags": ["UX Design", "Front-End Development", "Content Creation", "Technical SEO"],
+      "challenge": [
+        "Starting July 1st, 2022, Illinois businesses and residents could receive up to an 80% rebate for installing EV chargers — a real reason for property managers to act now. Chicago EV was stood up to catch that moment: a new company with no digital presence, needing a credible informational site aimed at large parking complexes, commercial properties, and multi-unit residential buildings.",
+        "This was an awareness play rather than an e-commerce build — the site's job was to explain the offering, establish credibility, and turn the rebate window into inquiries."
+      ],
+      "work": [
+        {"title": "Positioning a New Company", "problem": "EV-charger installation at building scale was an unfamiliar purchase for most property managers — and Chicago EV was an unknown name.", "solution": "Content and information architecture built around the questions a property manager actually asks: the rebate program, the services, the products — with the Sievert companies' decades of electrical experience as the credibility anchor."},
+        {"title": "Design & Build", "problem": "A new venture needed a presence fast, without heavy infrastructure.", "solution": "Designed and built the full site front to back, deployed as a static site on Netlify — the same fast, zero-maintenance model I use for small-business builds."},
+        {"title": "Technical SEO", "problem": "\"EV charger installation Chicago\" queries were exactly where prospects would start.", "solution": "Technical SEO implementation across the site so the new domain could compete for local commercial-intent searches."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [],
+      "summary": "A small, honest project: no dramatic numbers to report — just a new company given a credible face and a clear pitch, shipped in time for the rebate window that justified its existence.",
+      "links": [
+        {"label": "Chicago EV Live Site", "href": "https://chicagoev.netlify.app/"},
+        {"label": "Hoists.com Case Study", "href": "/projects/hoists.html"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
