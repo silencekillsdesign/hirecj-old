@@ -424,6 +424,35 @@
       ]
     },
     {
+      "slug": "keating-moore",
+      "kicker": "Project",
+      "title": "Keating Moore Construction",
+      "subtitle": "A brand and website worthy of the houses — for a custom builder with 40 years of work and \"little left to prove.\"",
+      "hero": "/img/projects/keatingmoore/home.png",
+      "client": "Keating Moore Construction — custom home builder in the Jupiter, Florida area for more than 40 years; a preferred builder in communities like Lost Tree Village and Jupiter Hills Country Club",
+      "role": "Brand, Wireframing, UX Design, Content Curation & Photo Editing",
+      "timeline": "SilenceKillsDesign engagement",
+      "team": "Freelance, via SilenceKillsDesign",
+      "tags": ["Branding", "Wireframing", "UX Design", "Content Curation", "Photo Editing"],
+      "challenge": [
+        "A builder of multi-million-dollar custom homes had a digital presence that undersold four decades of work. Their own philosophy — \"the work doesn't speak for itself; it tells half the story\" — applied to their website too: the houses were extraordinary, and the site telling their story wasn't.",
+        "The job was to bring the brand and site up to the standard of the homes: identity, structure, and above all the photography that does the actual selling."
+      ],
+      "work": [
+        {"title": "Brand & Identity", "problem": "Forty years of reputation, carried by word of mouth more than by any visual identity.", "solution": "Brand work built around restraint — the \"Dream. We Build.\" positioning lets the portfolio be the argument, with the mark and typography staying out of the photography's way."},
+        {"title": "Wireframing & UX", "problem": "Luxury home buyers don't browse spec sheets — they need to feel the standard of work within seconds.", "solution": "Wireframed a photography-first structure where full-bleed imagery leads every page and the site's job is to get out of the way of the houses."},
+        {"title": "Content Curation & Photo Editing", "problem": "The raw material was project photography of wildly varying vintage and quality.", "solution": "Curated the portfolio down to the work that makes the case, and edited the photography so every image holds up at full-screen scale."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [],
+      "summary": "No dashboard numbers to report on this one — the outcome is the site itself: a 40-year builder finally presented at the standard of its own work, with the portfolio doing the selling.",
+      "links": [
+        {"label": "Keating Moore Live", "href": "https://keatingmoore.com/"},
+        {"label": "The Old Website", "href": "https://web.archive.org/web/20190109225211/https://keatingmoore.com/"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
