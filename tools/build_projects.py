@@ -106,10 +106,13 @@ GALLERY = """
 """
 
 
-def figure(img, caption, cls="pp-fig", narrow=False):
+def figure(img, caption, cls="pp-fig", narrow=False, link=False):
     cap = f"<figcaption>{caption}</figcaption>" if caption else ""
     cls = (cls + " pp-narrow").strip() if narrow else cls
-    return f'<figure class="{cls}"><img src="{img}" alt="{caption}" loading="lazy" />{cap}</figure>'
+    tag = f'<img src="{img}" alt="{caption}" loading="lazy" />'
+    if link:
+        tag = f'<a href="{img}" target="_blank" rel="noopener">{tag}</a>'
+    return f'<figure class="{cls}">{tag}{cap}</figure>'
 
 
 def paragraphs(items):
@@ -136,7 +139,7 @@ def build(p):
     gallery = ""
     if p.get("gallery"):
         items = "".join(
-            "        " + figure(g["src"], g.get("caption", ""), cls="", narrow=g.get("narrow", False)) + "\n"
+            "        " + figure(g["src"], g.get("caption", ""), cls="", narrow=g.get("narrow", False), link=True) + "\n"
             for g in p["gallery"]
         )
         gallery = GALLERY.format(title=p.get("galleryTitle", "Gallery"), items=items)
