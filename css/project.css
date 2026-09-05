@@ -200,6 +200,64 @@ body.pp {
 }
 .pp a.pp-button-ghost:hover { background-color: #fff; color: #0b86c8; border-color: #fff; }
 
+/* Lightbox */
+.pp-lightbox {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  max-width: 100vw;
+  max-height: 100vh;
+  display: none;
+  align-items: center;
+  gap: 14px;
+  overflow: visible;
+}
+.pp-lightbox[open] { display: flex; }
+.pp-lightbox::backdrop { background: rgba(12, 22, 32, 0.88); }
+.pp-lightbox figure { margin: 0; text-align: center; }
+.pp-lightbox img {
+  max-width: 84vw;
+  max-height: 84vh;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  background: #fff;
+}
+.pp-lightbox figcaption {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.85;
+}
+.pp-lightbox button {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.pp-lightbox button:hover { background: rgba(255, 255, 255, 0.35); }
+.pp-lightbox .lb-close {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  font-size: 26px;
+}
+@media (max-width: 640px) {
+  .pp-lightbox { gap: 6px; }
+  .pp-lightbox img { max-width: 76vw; }
+  .pp-lightbox button { width: 36px; height: 36px; }
+}
+
 /* Footer */
 .pp-footer {
   background-color: #262B30;
