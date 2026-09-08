@@ -8,7 +8,7 @@
   dlg.innerHTML =
     '<button class="lb-close" aria-label="Close">&times;</button>' +
     '<button class="lb-prev" aria-label="Previous image">&#8592;</button>' +
-    '<figure><img alt="" /><figcaption></figcaption></figure>' +
+    '<figure><div class="lb-frame"><img alt="" /></div><figcaption></figcaption></figure>' +
     '<button class="lb-next" aria-label="Next image">&#8594;</button>';
   document.body.appendChild(dlg);
 
@@ -19,6 +19,7 @@
   function show(n) {
     i = (n + links.length) % links.length;
     img.src = links[i].href;
+    dlg.querySelector('.lb-frame').scrollTop = 0;
     var c = links[i].closest('figure').querySelector('figcaption');
     cap.textContent = (c ? c.textContent : '') + '  ·  ' + (i + 1) + ' / ' + links.length;
   }

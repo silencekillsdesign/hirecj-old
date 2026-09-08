@@ -221,15 +221,18 @@ body.pp {
 .pp-lightbox[open] { display: flex; }
 .pp-lightbox::backdrop { background: rgba(12, 22, 32, 0.88); }
 .pp-lightbox figure { margin: 0; text-align: center; }
+.pp-lightbox .lb-frame {
+  width: min(84vw, 1100px);
+  max-height: 82vh;
+  overflow-y: auto;
+  border-radius: 4px;
+  background: #fff;
+}
 .pp-lightbox img {
-  max-width: 84vw;
-  max-height: 84vh;
-  width: auto;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  border-radius: 4px;
-  background: #fff;
 }
 .pp-lightbox figcaption {
   color: #fff;
@@ -260,7 +263,7 @@ body.pp {
 }
 @media (max-width: 640px) {
   .pp-lightbox { gap: 6px; }
-  .pp-lightbox img { max-width: 76vw; }
+  .pp-lightbox .lb-frame { width: 76vw; }
   .pp-lightbox button { width: 36px; height: 36px; }
 }
 

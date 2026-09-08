@@ -21,8 +21,8 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:title" content="{title} — CJ Williams" />
   <meta property="og:image" content="https://hirecj.com{hero}" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
-  <link href="/css/project.css?v=4" rel="stylesheet" type="text/css" />
-  <script src="/js/lightbox.js?v=1" defer></script>
+  <link href="/css/project.css?v=5" rel="stylesheet" type="text/css" />
+  <script src="/js/lightbox.js?v=2" defer></script>
 </head>
 <body class="pp">
   <header class="pp-bar">
