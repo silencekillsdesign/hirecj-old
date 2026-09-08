@@ -66,6 +66,30 @@
         {"title": "Checkout & Conversion", "problem": "Nine checkout steps, no guest option — 78% mobile cart abandonment.", "solution": "Checkout compressed to 4 steps with guest-first default. In testing, every participant completed purchase in under 3 minutes versus 8+ on the legacy flow."},
         {"title": "Platform & Growth Engine", "problem": "No structured SEO, no conversion tracking, and misconfigured shipping costing $4–8 per order.", "solution": "Headless Shopify migration with Klaviyo, GA4 + GTM, ShipBob (corrected zone logic), and Yotpo — every integration mapped to a specific conversion or retention objective."}
       ],
+      "galleries": [
+        {
+          "title": "Before: The Old Site",
+          "items": [
+            {"src": "/img/projects/greenridge/before/home.jpg", "caption": "Before — home page"},
+            {"src": "/img/projects/greenridge/before/all-products.jpg", "caption": "Before — flat product list"},
+            {"src": "/img/projects/greenridge/before/product-gallery-d.jpg", "caption": "Before — product gallery"},
+            {"src": "/img/projects/greenridge/before/about-d.jpg", "caption": "Before — about page"},
+            {"src": "/img/projects/greenridge/before/recipes-d.jpg", "caption": "Before — recipes"},
+            {"src": "/img/projects/greenridge/before/faq-d.jpg", "caption": "Before — FAQ"},
+            {"src": "/img/projects/greenridge/before/contact-d.jpg", "caption": "Before — contact"}
+          ]
+        },
+        {
+          "title": "After: The Redesign Layouts",
+          "items": [
+            {"src": "/img/projects/greenridge/after/home.jpg", "caption": "After — home layout, from the Figma design system"},
+            {"src": "/img/projects/greenridge/after/product-landing.jpg", "caption": "After — product landing page"},
+            {"src": "/img/projects/greenridge/after/about.jpg", "caption": "After — about layout"},
+            {"src": "/img/projects/greenridge/after/retail.jpg", "caption": "After — retail locations with store finder"},
+            {"src": "/img/projects/greenridge/after/nacs.jpg", "caption": "After — NACS trade-show landing page"}
+          ]
+        }
+      ],
       "validation": [
         "Moderated usability testing on the redesigned checkout (n=6)",
         "Tree testing of new navigation — 94% found products within 2 clicks",
