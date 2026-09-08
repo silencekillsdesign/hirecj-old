@@ -174,18 +174,42 @@
       ],
       "work": [
         {"title": "Getting in without an app", "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.", "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.", "image": "/img/projects/cac/02-phone-join.png", "caption": "Start or join — scan, type a name, dealt in", "narrow": true},
-        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.", "image": "/img/projects/cac/11-tv-judging.png", "caption": "Judging on the TV — every answer face-up for the room, while each phone shows only its own card"},
-        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.", "image": "/img/projects/cac/06-tv-playing.png", "caption": "The table view — prompt, players, and round state sized for the back of the room"},
+        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.", "image": "/img/projects/cac/tv/judging.png", "caption": "Judging on the TV — every answer face-up for the room, while each phone shows only its own card"},
+        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.", "image": "/img/projects/cac/tv/playing.png", "caption": "Mid-round on the TV — prompt, judge, played cards, scores, and the always-on join QR"},
         {"title": "The review that found real bugs", "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.", "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.", "image": "/img/projects/cac/07-phone-hand.png", "caption": "Your hand — private to your phone", "narrow": true}
       ],
-      "galleryTitle": "Both Surfaces",
-      "gallery": [
-        {"src": "/img/projects/cac/01-phone-splash.png", "caption": "Splash", "narrow": true},
-        {"src": "/img/projects/cac/05-phone-lobby-ready.png", "caption": "Ready up", "narrow": true},
-        {"src": "/img/projects/cac/14-phone-write-your-own.png", "caption": "Write your own card", "narrow": true},
-        {"src": "/img/projects/cac/09-phone-card-is-in.png", "caption": "Card is in", "narrow": true},
-        {"src": "/img/projects/cac/18-phone-scoreboard.png", "caption": "Scores", "narrow": true},
-        {"src": "/img/projects/cac/13-tv-result.png", "caption": "Round result on the TV"}
+      "galleries": [
+        {
+          "title": "The Play — On Your Phone",
+          "items": [
+            {"src": "/img/projects/cac/01-phone-splash.png", "caption": "Splash", "narrow": true},
+            {"src": "/img/projects/cac/02-phone-join.png", "caption": "Start or join", "narrow": true},
+            {"src": "/img/projects/cac/04-phone-lobby-name.png", "caption": "Pick a name", "narrow": true},
+            {"src": "/img/projects/cac/05-phone-lobby-ready.png", "caption": "Ready up", "narrow": true},
+            {"src": "/img/projects/cac/07-phone-hand.png", "caption": "Your hand", "narrow": true},
+            {"src": "/img/projects/cac/08-phone-card-focused.png", "caption": "Card focused", "narrow": true},
+            {"src": "/img/projects/cac/14-phone-write-your-own.png", "caption": "Write your own card", "narrow": true},
+            {"src": "/img/projects/cac/09-phone-card-is-in.png", "caption": "Card is in", "narrow": true},
+            {"src": "/img/projects/cac/10-phone-spectating.png", "caption": "Spectating", "narrow": true},
+            {"src": "/img/projects/cac/15-phone-judge-waiting.png", "caption": "Judge — waiting on cards", "narrow": true},
+            {"src": "/img/projects/cac/16-phone-judge-picking.png", "caption": "Judge — picking", "narrow": true},
+            {"src": "/img/projects/cac/17-phone-judge-reading.png", "caption": "Judge — reading aloud", "narrow": true},
+            {"src": "/img/projects/cac/12-phone-round-winner.png", "caption": "Round winner", "narrow": true},
+            {"src": "/img/projects/cac/18-phone-scoreboard.png", "caption": "Scores", "narrow": true},
+            {"src": "/img/projects/cac/19-phone-invite.png", "caption": "Invite", "narrow": true},
+            {"src": "/img/projects/cac/20-phone-account.png", "caption": "Account — recovery code, no email", "narrow": true}
+          ]
+        },
+        {
+          "title": "The Table — On the TV",
+          "items": [
+            {"src": "/img/projects/cac/tv/attract.png", "caption": "Attract — the QR that turns strangers into players"},
+            {"src": "/img/projects/cac/tv/playing.png", "caption": "Playing — cards coming in"},
+            {"src": "/img/projects/cac/tv/judging.png", "caption": "Judging — every answer face-up"},
+            {"src": "/img/projects/cac/tv/result.png", "caption": "Round result"},
+            {"src": "/img/projects/cac/tv/gameover.png", "caption": "Game over"}
+          ]
+        }
       ],
       "validation": [
         "A headless harness drives real games over sockets — 23 assertions covering the deal, rotation, round expiry, discards and the 20-round cap",
