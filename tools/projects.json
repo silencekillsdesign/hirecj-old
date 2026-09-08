@@ -206,8 +206,7 @@
             {"src": "/img/projects/cac/tv/attract.png", "caption": "Attract — the QR that turns strangers into players"},
             {"src": "/img/projects/cac/tv/playing.png", "caption": "Playing — cards coming in"},
             {"src": "/img/projects/cac/tv/judging.png", "caption": "Judging — every answer face-up"},
-            {"src": "/img/projects/cac/tv/result.png", "caption": "Round result"},
-            {"src": "/img/projects/cac/tv/gameover.png", "caption": "Game over"}
+            {"src": "/img/projects/cac/tv/result.png", "caption": "Round result"}
           ]
         }
       ],
