@@ -21,7 +21,7 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:title" content="{title} — CJ Williams" />
   <meta property="og:image" content="https://hirecj.com{hero}" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
-  <link href="/css/project.css?v=3" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css?v=4" rel="stylesheet" type="text/css" />
   <script src="/js/lightbox.js?v=1" defer></script>
 </head>
 <body class="pp">
@@ -137,13 +137,16 @@ def build(p):
         for i, w in enumerate(p["work"], 1)
     )
 
+    galleries = p.get("galleries") or (
+        [{"title": p.get("galleryTitle", "Gallery"), "items": p["gallery"]}] if p.get("gallery") else []
+    )
     gallery = ""
-    if p.get("gallery"):
+    for g in galleries:
         items = "".join(
-            "        " + figure(g["src"], g.get("caption", ""), cls="", narrow=g.get("narrow", False), link=True) + "\n"
-            for g in p["gallery"]
+            "        " + figure(it["src"], it.get("caption", ""), cls="", narrow=it.get("narrow", False), link=True) + "\n"
+            for it in g["items"]
         )
-        gallery = GALLERY.format(title=p.get("galleryTitle", "Gallery"), items=items)
+        gallery += GALLERY.format(title=g.get("title", "Gallery"), items=items)
 
     cols = "".join(
         PROCESS_COL.format(heading=heading, items="".join(f"<li>{v}</li>" for v in items))

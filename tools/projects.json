@@ -203,14 +203,35 @@
         {"title": "From Catalog to Storefront", "problem": "Products lived in a catalog structure that assumed a sales rep would close every sale.", "solution": "Wireframed the new site's architecture from scratch, restructuring the product lines into a browsable, purchasable e-commerce experience.", "image": "/img/projects/allg/computer-shot1.png", "caption": "The new storefront"},
         {"title": "Prototype, Test, Hand Off", "problem": "The build would happen on a custom ASP.NET framework by AllG's internal team — the design had to be validated and unambiguous before a line of code was written.", "solution": "High-fidelity Adobe XD prototypes, backed by UX research and testing, carried the design through stakeholder sign-off and into development.", "image": "/img/projects/allg/computer-shot3.png", "caption": "Designed screens as delivered for the ASP.NET build"}
       ],
-      "galleryTitle": "The Brand in the Wild",
-      "gallery": [
-        {"src": "/img/projects/allg/business-cards.jpg", "caption": "Business cards"},
-        {"src": "/img/projects/allg/truck.jpg", "caption": "Fleet branding"},
-        {"src": "/img/projects/allg/product-guide.jpg", "caption": "Product guide cover"},
-        {"src": "/img/projects/allg/product-guide2.jpg", "caption": "Product guide interior"},
-        {"src": "/img/projects/allg/computer-shot2.png", "caption": "Storefront category page"},
-        {"src": "/img/projects/allg/forklift.jpg", "caption": "Equipment branding"}
+      "galleries": [
+        {
+          "title": "Before & After",
+          "items": [
+            {"src": "/img/projects/allg/before/home-d.png", "caption": "Before — the ALT Fab home page (2017)"},
+            {"src": "/img/projects/allg/after/home-d.png", "caption": "After — the allG home page, live today"},
+            {"src": "/img/projects/allg/before/pdp-d.png", "caption": "Before — product detail on ALT Fab"},
+            {"src": "/img/projects/allg/after/products-d.png", "caption": "After — allG products"},
+            {"src": "/img/projects/allg/before/about-d.png", "caption": "Before — ALT Fab about page"},
+            {"src": "/img/projects/allg/after/about-d.png", "caption": "After — allG about page"},
+            {"src": "/img/projects/allg/before/contact-d.png", "caption": "Before — ALT Fab contact page"},
+            {"src": "/img/projects/allg/after/contact-d.png", "caption": "After — allG contact page"},
+            {"src": "/img/projects/allg/before/home-m.png", "caption": "Before — ALT Fab on mobile", "narrow": true},
+            {"src": "/img/projects/allg/after/home-m.png", "caption": "After — allG on mobile", "narrow": true},
+            {"src": "/img/projects/allg/before/product-m.png", "caption": "Before — mobile product browsing", "narrow": true},
+            {"src": "/img/projects/allg/after/products-m.png", "caption": "After — mobile products", "narrow": true}
+          ]
+        },
+        {
+          "title": "The Brand in the Wild",
+          "items": [
+            {"src": "/img/projects/allg/business-cards.jpg", "caption": "Business cards"},
+            {"src": "/img/projects/allg/truck.jpg", "caption": "Fleet branding"},
+            {"src": "/img/projects/allg/product-guide.jpg", "caption": "Product guide cover"},
+            {"src": "/img/projects/allg/product-guide2.jpg", "caption": "Product guide interior"},
+            {"src": "/img/projects/allg/computer-shot2.png", "caption": "Storefront category page"},
+            {"src": "/img/projects/allg/forklift.jpg", "caption": "Equipment branding"}
+          ]
+        }
       ],
       "validation": [
         "UX research and usability testing across the redesign",
