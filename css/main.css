@@ -1094,3 +1094,40 @@ Responsive Syling
     width: 100%;
   }
 }
+/* ============================================
+   Card grid — project cards (replaces floats)
+   ============================================ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 10px;
+}
+.card-grid .card { display: flex; min-width: 0; }
+.card-grid .infopanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  float: none;
+}
+.card-grid .eye { flex: none; }
+.card-grid .eye img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+.card-grid .infopanel h5 { flex: none; }
+.card-grid .infopanel p { flex: 1 0 auto; }
+.card-grid .infopanel .button {
+  align-self: center;
+  margin-top: auto;
+}
+@media (max-width: 900px) {
+  .card-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .card-grid { grid-template-columns: 1fr; gap: 40px; }
+}
