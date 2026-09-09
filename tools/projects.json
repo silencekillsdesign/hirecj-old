@@ -546,6 +546,37 @@
       ]
     },
     {
+      "slug": "aquablock",
+      "kicker": "Case Study",
+      "title": "Aquablock Construction",
+      "subtitle": "A Bozeman builder's first-ever website — from zero web presence to 25% more leads.",
+      "hero": "/img/projects/aquablock/home.png",
+      "client": "Aquablock Roofing and Construction — residential and commercial builder in Bozeman, Montana, established 2001",
+      "role": "UX Research, Design, Development & SEO — end to end",
+      "timeline": "2026 — launched June 2026",
+      "team": "Solo, research through deployment",
+      "tags": ["UX Research", "Wireframing", "UI Design", "Next.js Development", "Technical SEO"],
+      "challenge": [
+        "Twenty-five years of building in Montana, and not a single page of web presence — every lead came by phone and word of mouth. The first website had to do two jobs at once: establish the credibility the company had already earned, and turn visitors into estimate requests.",
+        "I carried it end to end: UX research, wireframes, hi-fi designs, web development, technical SEO, and deployment."
+      ],
+      "work": [
+        {"title": "Research to Hi-Fi", "problem": "With no existing site, there was no baseline — the positioning, structure, and visual language all had to be built from research.", "solution": "UX research into how people hire builders and roofers, wireframes for the estimate-first structure, and hi-fi designs around the \"Build to Last\" positioning — dark, confident, and led by their own project photography."},
+        {"title": "The Build", "problem": "A small company needs a fast site with no maintenance burden.", "solution": "A custom Next.js / React / Tailwind build deployed on Netlify — modern, fast, and cheap to run, with quote requests as the site's primary conversion path.", "image": "/img/projects/aquablock/projects.png", "caption": "The projects page — the work does the selling"},
+        {"title": "Getting Found in Bozeman", "problem": "A first web presence starts invisible to search.", "solution": "Technical SEO across the site at launch. Google Business verification is in progress, with paid ad campaigns queued to follow — the site is the foundation the whole acquisition strategy lands on."}
+      ],
+      "validation": [],
+      "iteration": [],
+      "metrics": [
+        {"value": "+25%", "label": "Increase in web contacts and leads since the June 2026 launch"},
+        {"value": "0 → 1", "label": "First web presence in 25 years of business"}
+      ],
+      "summary": "The best kind of small-business result: a company that had never had a website went live in June and saw leads climb 25% within months — with Google Business verification and paid campaigns still to come.",
+      "links": [
+        {"label": "Live Site", "href": "https://aquablockconstruction.com/"}
+      ]
+    },
+    {
       "slug": "tedxchicago-2026",
       "kicker": "Project",
       "title": "TEDxChicago 2026 — We The People",
