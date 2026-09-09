@@ -1122,8 +1122,11 @@ Responsive Syling
 .card-grid .infopanel h5 { flex: none; }
 .card-grid .infopanel p { flex: 1 0 auto; }
 .card-grid .infopanel .button {
-  align-self: center;
-  margin-top: auto;
+  align-self: stretch;
+  width: auto;
+  margin: auto 0 0;
+  padding: 14px 10px;
+  font-size: 14px;
 }
 @media (max-width: 900px) {
   .card-grid { grid-template-columns: 1fr 1fr; }
