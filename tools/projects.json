@@ -10,17 +10,47 @@
       "role": "Lead UX Designer",
       "timeline": "2024 – Present",
       "team": "Cross-functional team of 6 (Product, Engineering, QA, Marketing)",
-      "tags": ["UX Research", "Design Systems", "Information Architecture", "AI Integration", "Usability Testing"],
+      "tags": [
+        "UX Research",
+        "Design Systems",
+        "Information Architecture",
+        "AI Integration",
+        "Usability Testing"
+      ],
       "challenge": [
         "The platform had a powerful AI search engine (HawkSearch) under the hood and no experience to match it. Navigation was a row of unlabeled icons. Search generated broken, dead-end URLs. The platform's most powerful feature — AI search across purchase histories, warranties, and supplier catalogs — was invisible to users and unknown to most of the team.",
         "The mandate: make what exists work, introduce proven e-commerce patterns, then design the leap — an AI-native procurement experience."
       ],
       "work": [
-        {"title": "Design System", "problem": "40+ button variants, no shared visual language, and every new feature compounding the inconsistency.", "solution": "A token-first design system built in Figma — primitives through templates, every component documented with interaction states and responsive specs."},
-        {"title": "Mobile Experience", "problem": "No responsive foundation — broken layouts, inaccessible touch targets, and purchasing flows that punished mobile users.", "solution": "A mobile-first rebuild of the full journey — discovery, cart, checkout, support, and account — modeled on proven e-commerce patterns. Task completion rose across every flow."},
-        {"title": "Platform Navigation", "problem": "“Buying Desk” opened a quote form. “Vendors” led to info pages. Everything else was an unlabeled icon — and the storefront and admin ran on two different design systems.", "solution": "Labeled, hierarchy-first navigation with breadcrumbs, unified across storefront and admin. One coherent product instead of two disconnected ones."},
-        {"title": "Shopping Experience", "problem": "Refrigerators filed under “Anchors & Setup.” Broken search URLs. 83% mobile cart abandonment and an 85% exit rate right after purchase.", "solution": "A rebuilt taxonomy that matches how buyers search, clean faceted-search URLs, product pages that build buying confidence, and a streamlined checkout — with HawkSearch reworked into rapid, navigable results."},
-        {"title": "Platform Redesign", "problem": "The quick wins proved the platform could work — but they were still patches on an aging foundation.", "solution": "A ground-up reimagining: full design-system overhaul plus mid-fi and hi-fi concepts for a search-first, AI-native procurement experience. Demonstrated to stakeholders and strongly received; cut before shipping by a market downturn."}
+        {
+          "title": "Design System",
+          "problem": "40+ button variants, no shared visual language, and every new feature compounding the inconsistency.",
+          "solution": "A token-first design system built in Figma — primitives through templates, every component documented with interaction states and responsive specs. Explore the live file below.",
+          "embed": "https://embed.figma.com/design/FADZBDQCb7w55ykGncih8L/Purchasing-Platform-Design-System?node-id=3039-6099&embed-host=share",
+          "caption": "The Purchasing Platform design system — live from Figma"
+        },
+        {
+          "title": "Mobile Experience",
+          "problem": "No responsive foundation — broken layouts, inaccessible touch targets, and purchasing flows that punished mobile users.",
+          "solution": "A mobile-first rebuild of the full journey — discovery, cart, checkout, support, and account — modeled on proven e-commerce patterns. Task completion rose across every flow.",
+          "image": "/img/projects/pp/before-mobile.jpg",
+          "caption": "Where it started — the previous mobile navigation, with its pain points annotated in the working file"
+        },
+        {
+          "title": "Platform Navigation",
+          "problem": "“Buying Desk” opened a quote form. “Vendors” led to info pages. Everything else was an unlabeled icon — and the storefront and admin ran on two different design systems.",
+          "solution": "Labeled, hierarchy-first navigation with breadcrumbs, unified across storefront and admin. One coherent product instead of two disconnected ones."
+        },
+        {
+          "title": "Shopping Experience",
+          "problem": "Refrigerators filed under “Anchors & Setup.” Broken search URLs. 83% mobile cart abandonment and an 85% exit rate right after purchase.",
+          "solution": "A rebuilt taxonomy that matches how buyers search, clean faceted-search URLs, product pages that build buying confidence, and a streamlined checkout — with HawkSearch reworked into rapid, navigable results."
+        },
+        {
+          "title": "Platform Redesign",
+          "problem": "The quick wins proved the platform could work — but they were still patches on an aging foundation.",
+          "solution": "A ground-up reimagining: full design-system overhaul plus mid-fi and hi-fi concepts for a search-first, AI-native procurement experience. Demonstrated to stakeholders and strongly received; cut before shipping by a market downturn."
+        }
       ],
       "validation": [
         "Heuristic evaluation against Nielsen's 10 usability principles",
@@ -35,14 +65,56 @@
         "Continuous Hotjar session-recording feedback loop"
       ],
       "metrics": [
-        {"value": "54%", "label": "Improvement in session purchase completion"},
-        {"value": "0→1", "label": "Navigation architecture built from scratch"},
-        {"value": "40+", "label": "Component variants consolidated into a single system"}
+        {
+          "value": "54%",
+          "label": "Improvement in session purchase completion"
+        },
+        {
+          "value": "0→1",
+          "label": "Navigation architecture built from scratch"
+        },
+        {
+          "value": "40+",
+          "label": "Component variants consolidated into a single system"
+        }
       ],
       "summary": "The platform's AI was genuinely competitive — what was missing was the UX scaffolding to make it usable. Each workstream added a layer: a design system, mobile foundations, real navigation, and a validated vision for an AI-native future.",
       "links": [
-        {"label": "Initial Findings", "href": "https://www.figma.com/deck/Dv5K3YRPaSjDMEUZ19C6rl"},
-        {"label": "Case Study Deck", "href": "https://www.figma.com/deck/tjlqoAI6ObHsuxiNTZ13td"}
+        {
+          "label": "Initial Findings",
+          "href": "https://www.figma.com/deck/Dv5K3YRPaSjDMEUZ19C6rl"
+        },
+        {
+          "label": "Case Study Deck",
+          "href": "https://www.figma.com/deck/tjlqoAI6ObHsuxiNTZ13td"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "The Mobile Redesign",
+          "items": [
+            {
+              "src": "/img/projects/pp/mobile-home.jpg",
+              "caption": "Homepage — search-first, familiar e-commerce patterns (click to scroll the full comp)"
+            },
+            {
+              "src": "/img/projects/pp/mobile-category.jpg",
+              "caption": "Category page with subcategories — the rebuilt taxonomy"
+            },
+            {
+              "src": "/img/projects/pp/mobile-filter.jpg",
+              "caption": "Faceted filtering on mobile"
+            },
+            {
+              "src": "/img/projects/pp/mobile-product.jpg",
+              "caption": "Product page — variants, stock, and buying confidence"
+            },
+            {
+              "src": "/img/projects/pp/mobile-favorites.jpg",
+              "caption": "Favorites — saved items, vendors, and searches"
+            }
+          ]
+        }
       ]
     },
     {
@@ -55,38 +127,98 @@
       "role": "Director of E-Commerce & User Experience",
       "timeline": "Dec 2022 – Dec 2023",
       "team": "Solo designer leading a cross-functional team (Dev, Operations, Marketing)",
-      "tags": ["Brand Strategy", "E-Commerce UX", "Design Systems", "Technical SEO", "Analytics"],
+      "tags": [
+        "Brand Strategy",
+        "E-Commerce UX",
+        "Design Systems",
+        "Technical SEO",
+        "Analytics"
+      ],
       "challenge": [
         "No design system, a 9-step checkout with 78% mobile abandonment, zero SEO metadata or conversion tracking, and shipping misconfiguration bleeding $4–8 of margin on every order.",
         "As sole design and digital lead reporting directly to the CEO, I owned brand, UX, front-end, platform migration, SEO, and marketing in a 12-month ground-up rebuild."
       ],
       "work": [
-        {"title": "Brand & Design System", "problem": "The company was already a year into a stagnant rebrand with a third-party designer — a mid-point logo that missed the vision of quality, fresh ingredients and an accessible, healthier lifestyle.", "solution": "A rebrand recovery: my junior designer and I dove into the brand's history, the competitive market, and timeless design principles, then guided ownership to a cleaner logo with a modular, iconic mark — systematized in Figma as brand tokens, product cards, collection grids, banners, and subscription UI.", "image": "/img/projects/greenridge/brand-evolution.jpg", "caption": "Brand evolution — old logo, the third-party mid-point, and the final mark"},
-        {"title": "Site Architecture", "problem": "Product discovery was a flat category list — no filtering, no search logic, no merchandising.", "solution": "Catalog reorganized around three consumer need states — Daily Wellness, Targeted Support, Bundles & Value — with faceted filtering and best-sellers surfaced at the top level."},
-        {"title": "Checkout & Conversion", "problem": "Nine checkout steps, no guest option — 78% mobile cart abandonment.", "solution": "Checkout compressed to 4 steps with guest-first default. In testing, every participant completed purchase in under 3 minutes versus 8+ on the legacy flow."},
-        {"title": "Platform & Growth Engine", "problem": "No structured SEO, no conversion tracking, and misconfigured shipping costing $4–8 per order.", "solution": "Headless Shopify migration with Klaviyo, GA4 + GTM, ShipBob (corrected zone logic), and Yotpo — every integration mapped to a specific conversion or retention objective."}
+        {
+          "title": "Brand & Design System",
+          "problem": "The company was already a year into a stagnant rebrand with a third-party designer — a mid-point logo that missed the vision of quality, fresh ingredients and an accessible, healthier lifestyle.",
+          "solution": "A rebrand recovery: my junior designer and I dove into the brand's history, the competitive market, and timeless design principles, then guided ownership to a cleaner logo with a modular, iconic mark — systematized in Figma as brand tokens, product cards, collection grids, banners, and subscription UI.",
+          "image": "/img/projects/greenridge/brand-evolution.jpg",
+          "caption": "Brand evolution — old logo, the third-party mid-point, and the final mark"
+        },
+        {
+          "title": "Site Architecture",
+          "problem": "Product discovery was a flat category list — no filtering, no search logic, no merchandising.",
+          "solution": "Catalog reorganized around three consumer need states — Daily Wellness, Targeted Support, Bundles & Value — with faceted filtering and best-sellers surfaced at the top level."
+        },
+        {
+          "title": "Checkout & Conversion",
+          "problem": "Nine checkout steps, no guest option — 78% mobile cart abandonment.",
+          "solution": "Checkout compressed to 4 steps with guest-first default. In testing, every participant completed purchase in under 3 minutes versus 8+ on the legacy flow."
+        },
+        {
+          "title": "Platform & Growth Engine",
+          "problem": "No structured SEO, no conversion tracking, and misconfigured shipping costing $4–8 per order.",
+          "solution": "Headless Shopify migration with Klaviyo, GA4 + GTM, ShipBob (corrected zone logic), and Yotpo — every integration mapped to a specific conversion or retention objective."
+        }
       ],
       "galleries": [
         {
           "title": "Before: The Old Site",
           "items": [
-            {"src": "/img/projects/greenridge/before/home.jpg", "caption": "Before — home page"},
-            {"src": "/img/projects/greenridge/before/all-products.jpg", "caption": "Before — flat product list"},
-            {"src": "/img/projects/greenridge/before/product-gallery-d.jpg", "caption": "Before — product gallery"},
-            {"src": "/img/projects/greenridge/before/about-d.jpg", "caption": "Before — about page"},
-            {"src": "/img/projects/greenridge/before/recipes-d.jpg", "caption": "Before — recipes"},
-            {"src": "/img/projects/greenridge/before/faq-d.jpg", "caption": "Before — FAQ"},
-            {"src": "/img/projects/greenridge/before/contact-d.jpg", "caption": "Before — contact"}
+            {
+              "src": "/img/projects/greenridge/before/home.jpg",
+              "caption": "Before — home page"
+            },
+            {
+              "src": "/img/projects/greenridge/before/all-products.jpg",
+              "caption": "Before — flat product list"
+            },
+            {
+              "src": "/img/projects/greenridge/before/product-gallery-d.jpg",
+              "caption": "Before — product gallery"
+            },
+            {
+              "src": "/img/projects/greenridge/before/about-d.jpg",
+              "caption": "Before — about page"
+            },
+            {
+              "src": "/img/projects/greenridge/before/recipes-d.jpg",
+              "caption": "Before — recipes"
+            },
+            {
+              "src": "/img/projects/greenridge/before/faq-d.jpg",
+              "caption": "Before — FAQ"
+            },
+            {
+              "src": "/img/projects/greenridge/before/contact-d.jpg",
+              "caption": "Before — contact"
+            }
           ]
         },
         {
           "title": "After: The Redesign Layouts",
           "items": [
-            {"src": "/img/projects/greenridge/after/home.jpg", "caption": "After — home layout, from the Figma design system"},
-            {"src": "/img/projects/greenridge/after/product-landing.jpg", "caption": "After — product landing page"},
-            {"src": "/img/projects/greenridge/after/about.jpg", "caption": "After — about layout"},
-            {"src": "/img/projects/greenridge/after/retail.jpg", "caption": "After — retail locations with store finder"},
-            {"src": "/img/projects/greenridge/after/nacs.jpg", "caption": "After — NACS trade-show landing page"}
+            {
+              "src": "/img/projects/greenridge/after/home.jpg",
+              "caption": "After — home layout, from the Figma design system"
+            },
+            {
+              "src": "/img/projects/greenridge/after/product-landing.jpg",
+              "caption": "After — product landing page"
+            },
+            {
+              "src": "/img/projects/greenridge/after/about.jpg",
+              "caption": "After — about layout"
+            },
+            {
+              "src": "/img/projects/greenridge/after/retail.jpg",
+              "caption": "After — retail locations with store finder"
+            },
+            {
+              "src": "/img/projects/greenridge/after/nacs.jpg",
+              "caption": "After — NACS trade-show landing page"
+            }
           ]
         }
       ],
@@ -103,14 +235,29 @@
         "Quarterly Hotjar heatmap and session-recording reviews"
       ],
       "metrics": [
-        {"value": "420%", "label": "Increase in online sales YoY"},
-        {"value": "230%", "label": "Growth in organic traffic YoY"},
-        {"value": "40%", "label": "Reduction in shipping costs"}
+        {
+          "value": "420%",
+          "label": "Increase in online sales YoY"
+        },
+        {
+          "value": "230%",
+          "label": "Growth in organic traffic YoY"
+        },
+        {
+          "value": "40%",
+          "label": "Reduction in shipping costs"
+        }
       ],
       "summary": "Brand, funnel, backend, and acquisition rebuilt simultaneously — compounding returns no isolated fix could produce.",
       "links": [
-        {"label": "The Figma File", "href": "https://www.figma.com/file/72bpNwpwkJZchV2tS56f88/Greenridge---Design-System?type=design&node-id=849%3A1317"},
-        {"label": "Live Site", "href": "https://greenridgenaturals.com"}
+        {
+          "label": "The Figma File",
+          "href": "https://www.figma.com/file/72bpNwpwkJZchV2tS56f88/Greenridge---Design-System?type=design&node-id=849%3A1317"
+        },
+        {
+          "label": "Live Site",
+          "href": "https://greenridgenaturals.com"
+        }
       ]
     },
     {
@@ -123,16 +270,38 @@
       "role": "Director of E-Commerce & Product Development",
       "timeline": "Dec 2019 – Feb 2023",
       "team": "Scaled from solo to a 5-person department (UX, Content, Development, Operations)",
-      "tags": ["Information Architecture", "E-Commerce UX", "AI Integration", "ERP Integration", "Technical SEO"],
+      "tags": [
+        "Information Architecture",
+        "E-Commerce UX",
+        "AI Integration",
+        "ERP Integration",
+        "Technical SEO"
+      ],
       "challenge": [
         "No catalog, no product data — just 3,500+ SKUs in an ERP and a sales team that knew the product cold. Industrial buyers are deeply technical, and every spec matters. The filter UI exposed every value as its own checkbox — buyers averaged 5,000–10,000 page visits to find the right product.",
         "As founding digital lead reporting to the President, I was solo designer, developer, and strategist for 18 months, then scaled the department to five."
       ],
       "work": [
-        {"title": "Domain Immersion", "problem": "I knew e-commerce, not hoists — and product knowledge lived only in PDF spec sheets, ERP line items, and people's heads.", "solution": "Ran between sales, mechanics, techs, and metal fabricators to learn the domain firsthand — then built the entire catalog around real buyer mental models instead of the spec sheet."},
-        {"title": "Catalog Architecture", "problem": "No taxonomy for 3,500+ SKUs spanning hoists, cranes, trolleys, and accessories.", "solution": "A five-tier hierarchy — Product Family → Type → Capacity Class → Configuration → Variant — with smart filter logic suppressing incompatible combinations in real time."},
-        {"title": "Smart Range Filters", "problem": "Every spec value was a standalone checkbox — lift heights from 1ft up, capacities to 20,000 lbs. Hundreds of options, no grouping, 5,000–10,000 visits per purchase.", "solution": "Hundreds of checkboxes collapsed into intelligent capacity and height ranges that match how buyers think — light, medium, heavy industrial. Average purchase journey: two visits."},
-        {"title": "AI Chat & ERP Integration", "problem": "Technical questions bottlenecked on the sales team. Freight quotes took 48 hours. Availability changed daily through pandemic supply chaos.", "solution": "An AI chat tool answering spec questions in real time, Epicor ERP sync for live inventory and lead times, and cart-level LTL freight via Freightquote."}
+        {
+          "title": "Domain Immersion",
+          "problem": "I knew e-commerce, not hoists — and product knowledge lived only in PDF spec sheets, ERP line items, and people's heads.",
+          "solution": "Ran between sales, mechanics, techs, and metal fabricators to learn the domain firsthand — then built the entire catalog around real buyer mental models instead of the spec sheet."
+        },
+        {
+          "title": "Catalog Architecture",
+          "problem": "No taxonomy for 3,500+ SKUs spanning hoists, cranes, trolleys, and accessories.",
+          "solution": "A five-tier hierarchy — Product Family → Type → Capacity Class → Configuration → Variant — with smart filter logic suppressing incompatible combinations in real time."
+        },
+        {
+          "title": "Smart Range Filters",
+          "problem": "Every spec value was a standalone checkbox — lift heights from 1ft up, capacities to 20,000 lbs. Hundreds of options, no grouping, 5,000–10,000 visits per purchase.",
+          "solution": "Hundreds of checkboxes collapsed into intelligent capacity and height ranges that match how buyers think — light, medium, heavy industrial. Average purchase journey: two visits."
+        },
+        {
+          "title": "AI Chat & ERP Integration",
+          "problem": "Technical questions bottlenecked on the sales team. Freight quotes took 48 hours. Availability changed daily through pandemic supply chaos.",
+          "solution": "An AI chat tool answering spec questions in real time, Epicor ERP sync for live inventory and lead times, and cart-level LTL freight via Freightquote."
+        }
       ],
       "validation": [
         "Domain immersion with sales, mechanics, techs, and fabricators",
@@ -147,14 +316,29 @@
         "Quarterly buyer interviews as the catalog expanded"
       ],
       "metrics": [
-        {"value": "$1.2M", "label": "Revenue generated in year one"},
-        {"value": "$12M", "label": "Current annual revenue"},
-        {"value": "2", "label": "Avg. visits to purchase (down from 5,000–10,000)"}
+        {
+          "value": "$1.2M",
+          "label": "Revenue generated in year one"
+        },
+        {
+          "value": "$12M",
+          "label": "Current annual revenue"
+        },
+        {
+          "value": "2",
+          "label": "Avg. visits to purchase (down from 5,000–10,000)"
+        }
       ],
       "summary": "One decision changed everything: make the filters match how buyers think, not how the spec sheet is organized. $1.2M in year one, $2M in year two, $12M annually now — that's information architecture compounding.",
       "links": [
-        {"label": "Hoists.com Live", "href": "https://hoists.com"},
-        {"label": "Pre-Hoists.com", "href": "https://www.sievertcrane.com/"}
+        {
+          "label": "Hoists.com Live",
+          "href": "https://hoists.com"
+        },
+        {
+          "label": "Pre-Hoists.com",
+          "href": "https://www.sievertcrane.com/"
+        }
       ]
     },
     {
@@ -167,46 +351,154 @@
       "role": "Product Designer & Sole Developer",
       "timeline": "Aug 2026 – Present",
       "team": "Solo — design, front end, back end, deployment",
-      "tags": ["Product Design", "Multi-Surface UX", "10-Foot UI", "Real-Time Systems", "Full-Stack Development"],
+      "tags": [
+        "Product Design",
+        "Multi-Surface UX",
+        "10-Foot UI",
+        "Real-Time Systems",
+        "Full-Stack Development"
+      ],
       "challenge": [
         "A Cards Against Humanity–style party game built for bars. The venue puts a QR and a permanent code on a TV; patrons scan it, type a name, and are dealt in from their own phone.",
         "The core problem: split one game across two surfaces — a private phone and a public screen — so each shows what its audience needs and nothing it shouldn't. In a loud room, ten feet from the TV, with a drink in one hand."
       ],
       "work": [
-        {"title": "Getting in without an app", "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.", "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.", "image": "/img/projects/cac/02-phone-join.png", "caption": "Start or join — scan, type a name, dealt in", "narrow": true},
-        {"title": "Two screens, one game", "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.", "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.", "image": "/img/projects/cac/tv/judging.png", "caption": "Judging on the TV — every answer face-up for the room, while each phone shows only its own card"},
-        {"title": "Designing for ten feet", "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.", "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.", "image": "/img/projects/cac/tv/playing.png", "caption": "Mid-round on the TV — prompt, judge, played cards, scores, and the always-on join QR"},
-        {"title": "The review that found real bugs", "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.", "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.", "image": "/img/projects/cac/07-phone-hand.png", "caption": "Your hand — private to your phone", "narrow": true}
+        {
+          "title": "Getting in without an app",
+          "problem": "Nobody installs an app to play one round. Every second between seeing the TV and holding cards is a chance to give up.",
+          "solution": "A permanent per-venue code and QR, printable on a table tent. Scanning drops you into the game; the only required step is a name. Accounts are optional and use a recovery code, not an email and password.",
+          "image": "/img/projects/cac/02-phone-join.png",
+          "caption": "Start or join — scan, type a name, dealt in",
+          "narrow": true
+        },
+        {
+          "title": "Two screens, one game",
+          "problem": "The phone is private, the TV is public. Show the wrong thing on either and the round is ruined — a leaked hand, or a shared moment trapped on one screen.",
+          "solution": "Each surface gets a different payload. Phones get their own hand and nothing else; the TV gets public state on a read-only channel.",
+          "image": "/img/projects/cac/tv/judging.png",
+          "caption": "Judging on the TV — every answer face-up for the room, while each phone shows only its own card"
+        },
+        {
+          "title": "Designing for ten feet",
+          "problem": "The TV was designed at desk distance. Supporting copy sat at 21px on a 1080p panel, and the QR — the only thing that turns a stranger into a player — had a third of the screen while a demo took two thirds.",
+          "solution": "A viewport-height type scale with a ~24px floor at 1080p, and a nested bento layout with the QR as the hero tile.",
+          "image": "/img/projects/cac/tv/playing.png",
+          "caption": "Mid-round on the TV — prompt, judge, played cards, scores, and the always-on join QR"
+        },
+        {
+          "title": "The review that found real bugs",
+          "problem": "The work had gone reactive — spot something, fix that one thing. Functional tests only prove code does what it was told to.",
+          "solution": "A screen-by-screen pass in player order, judged against measured values. It found a written card destroyed when a judge disconnected, a sheet advertising a swipe that did not exist, and an idle TV claiming someone was playing to an empty room.",
+          "image": "/img/projects/cac/07-phone-hand.png",
+          "caption": "Your hand — private to your phone",
+          "narrow": true
+        }
       ],
       "galleries": [
         {
           "title": "The Play — On Your Phone",
           "items": [
-            {"src": "/img/projects/cac/01-phone-splash.png", "caption": "Splash", "narrow": true},
-            {"src": "/img/projects/cac/02-phone-join.png", "caption": "Start or join", "narrow": true},
-            {"src": "/img/projects/cac/04-phone-lobby-name.png", "caption": "Pick a name", "narrow": true},
-            {"src": "/img/projects/cac/05-phone-lobby-ready.png", "caption": "Ready up", "narrow": true},
-            {"src": "/img/projects/cac/07-phone-hand.png", "caption": "Your hand", "narrow": true},
-            {"src": "/img/projects/cac/08-phone-card-focused.png", "caption": "Card focused", "narrow": true},
-            {"src": "/img/projects/cac/14-phone-write-your-own.png", "caption": "Write your own card", "narrow": true},
-            {"src": "/img/projects/cac/09-phone-card-is-in.png", "caption": "Card is in", "narrow": true},
-            {"src": "/img/projects/cac/10-phone-spectating.png", "caption": "Spectating", "narrow": true},
-            {"src": "/img/projects/cac/15-phone-judge-waiting.png", "caption": "Judge — waiting on cards", "narrow": true},
-            {"src": "/img/projects/cac/16-phone-judge-picking.png", "caption": "Judge — picking", "narrow": true},
-            {"src": "/img/projects/cac/17-phone-judge-reading.png", "caption": "Judge — reading aloud", "narrow": true},
-            {"src": "/img/projects/cac/12-phone-round-winner.png", "caption": "Round winner", "narrow": true},
-            {"src": "/img/projects/cac/18-phone-scoreboard.png", "caption": "Scores", "narrow": true},
-            {"src": "/img/projects/cac/19-phone-invite.png", "caption": "Invite", "narrow": true},
-            {"src": "/img/projects/cac/20-phone-account.png", "caption": "Account — recovery code, no email", "narrow": true}
+            {
+              "src": "/img/projects/cac/01-phone-splash.png",
+              "caption": "Splash",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/02-phone-join.png",
+              "caption": "Start or join",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/04-phone-lobby-name.png",
+              "caption": "Pick a name",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/05-phone-lobby-ready.png",
+              "caption": "Ready up",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/07-phone-hand.png",
+              "caption": "Your hand",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/08-phone-card-focused.png",
+              "caption": "Card focused",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/14-phone-write-your-own.png",
+              "caption": "Write your own card",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/09-phone-card-is-in.png",
+              "caption": "Card is in",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/10-phone-spectating.png",
+              "caption": "Spectating",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/15-phone-judge-waiting.png",
+              "caption": "Judge — waiting on cards",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/16-phone-judge-picking.png",
+              "caption": "Judge — picking",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/17-phone-judge-reading.png",
+              "caption": "Judge — reading aloud",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/12-phone-round-winner.png",
+              "caption": "Round winner",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/18-phone-scoreboard.png",
+              "caption": "Scores",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/19-phone-invite.png",
+              "caption": "Invite",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/cac/20-phone-account.png",
+              "caption": "Account — recovery code, no email",
+              "narrow": true
+            }
           ]
         },
         {
           "title": "The Table — On the TV",
           "items": [
-            {"src": "/img/projects/cac/tv/attract.png", "caption": "Attract — the QR that turns strangers into players"},
-            {"src": "/img/projects/cac/tv/playing.png", "caption": "Playing — cards coming in"},
-            {"src": "/img/projects/cac/tv/judging.png", "caption": "Judging — every answer face-up"},
-            {"src": "/img/projects/cac/tv/result.png", "caption": "Round result"}
+            {
+              "src": "/img/projects/cac/tv/attract.png",
+              "caption": "Attract — the QR that turns strangers into players"
+            },
+            {
+              "src": "/img/projects/cac/tv/playing.png",
+              "caption": "Playing — cards coming in"
+            },
+            {
+              "src": "/img/projects/cac/tv/judging.png",
+              "caption": "Judging — every answer face-up"
+            },
+            {
+              "src": "/img/projects/cac/tv/result.png",
+              "caption": "Round result"
+            }
           ]
         }
       ],
@@ -221,13 +513,25 @@
         "Next: the bar-facing admin screens, and a first full night at Innjoy"
       ],
       "metrics": [
-        {"value": "2,495", "label": "Cards in the deck"},
-        {"value": "0", "label": "Installs to play"},
-        {"value": "23", "label": "Automated rule checks"}
+        {
+          "value": "2,495",
+          "label": "Cards in the deck"
+        },
+        {
+          "value": "0",
+          "label": "Installs to play"
+        },
+        {
+          "value": "23",
+          "label": "Automated rule checks"
+        }
       ],
       "summary": "Reviewing an interface properly turned out to be quality control, not decoration — walking every screen in the order a player meets it found three real bugs that functional tests had missed. Building it alone meant every design decision had to survive contact with the system implementing it.",
       "links": [
-        {"label": "Play It Live", "href": "https://cards-against-chicago-production.up.railway.app"}
+        {
+          "label": "Play It Live",
+          "href": "https://cards-against-chicago-production.up.railway.app"
+        }
       ]
     },
     {
@@ -240,43 +544,125 @@
       "role": "Lead UX Designer & Brand Designer",
       "timeline": "Jan 2020 – Jul 2020",
       "team": "AllG's internal tech team (development) and Bella Group (creative & marketing)",
-      "tags": ["Brand Design", "UX Research", "Wireframing", "Prototyping", "E-Commerce UX"],
+      "tags": [
+        "Brand Design",
+        "UX Research",
+        "Wireframing",
+        "Prototyping",
+        "E-Commerce UX"
+      ],
       "challenge": [
         "AllG sold through a traditional catalog shopping experience: browse a product list, then contact a sales rep to actually buy. The mandate was to redesign the website as a modern e-commerce experience — one that had to run on the company's custom ASP.NET framework and be built by their internal tech team.",
         "I led brand design, wireframing of the new site, prototyping, and all UX/UI design, research, and testing."
       ],
       "work": [
-        {"title": "Brand Design", "problem": "A manufacturer with three distinct competencies — wireless-carrier manufacturing, lightning protection systems, and custom fabrication — needed an identity that presented them as one modern company online.", "solution": "Led the brand design for the new site, working alongside Bella Group on the broader creative and marketing effort — an identity system carried through print, fleet, and the web under the tagline “Nothing is impossible.”", "image": "/img/projects/allg/ID-Package-2.png", "caption": "The allG identity package — letterhead, notecards, and envelope"},
-        {"title": "From Catalog to Storefront", "problem": "Products lived in a catalog structure that assumed a sales rep would close every sale.", "solution": "Wireframed the new site's architecture from scratch, restructuring the product lines into a browsable, purchasable e-commerce experience.", "image": "/img/projects/allg/computer-shot1.png", "caption": "The new storefront"},
-        {"title": "Prototype, Test, Hand Off", "problem": "The build would happen on a custom ASP.NET framework by AllG's internal team — the design had to be validated and unambiguous before a line of code was written.", "solution": "High-fidelity Adobe XD prototypes, backed by UX research and testing, carried the design through stakeholder sign-off and into development.", "image": "/img/projects/allg/computer-shot3.png", "caption": "Designed screens as delivered for the ASP.NET build"}
+        {
+          "title": "Brand Design",
+          "problem": "A manufacturer with three distinct competencies — wireless-carrier manufacturing, lightning protection systems, and custom fabrication — needed an identity that presented them as one modern company online.",
+          "solution": "Led the brand design for the new site, working alongside Bella Group on the broader creative and marketing effort — an identity system carried through print, fleet, and the web under the tagline “Nothing is impossible.”",
+          "image": "/img/projects/allg/ID-Package-2.png",
+          "caption": "The allG identity package — letterhead, notecards, and envelope"
+        },
+        {
+          "title": "From Catalog to Storefront",
+          "problem": "Products lived in a catalog structure that assumed a sales rep would close every sale.",
+          "solution": "Wireframed the new site's architecture from scratch, restructuring the product lines into a browsable, purchasable e-commerce experience.",
+          "image": "/img/projects/allg/computer-shot1.png",
+          "caption": "The new storefront"
+        },
+        {
+          "title": "Prototype, Test, Hand Off",
+          "problem": "The build would happen on a custom ASP.NET framework by AllG's internal team — the design had to be validated and unambiguous before a line of code was written.",
+          "solution": "High-fidelity Adobe XD prototypes, backed by UX research and testing, carried the design through stakeholder sign-off and into development.",
+          "image": "/img/projects/allg/computer-shot3.png",
+          "caption": "Designed screens as delivered for the ASP.NET build"
+        }
       ],
       "galleries": [
         {
           "title": "Before & After",
           "items": [
-            {"src": "/img/projects/allg/before/home-d.png", "caption": "Before — the ALT Fab home page (2017)"},
-            {"src": "/img/projects/allg/after/home-d.png", "caption": "After — the allG home page, live today"},
-            {"src": "/img/projects/allg/before/pdp-d.png", "caption": "Before — product detail on ALT Fab"},
-            {"src": "/img/projects/allg/after/products-d.png", "caption": "After — allG products"},
-            {"src": "/img/projects/allg/before/about-d.png", "caption": "Before — ALT Fab about page"},
-            {"src": "/img/projects/allg/after/about-d.png", "caption": "After — allG about page"},
-            {"src": "/img/projects/allg/before/contact-d.png", "caption": "Before — ALT Fab contact page"},
-            {"src": "/img/projects/allg/after/contact-d.png", "caption": "After — allG contact page"},
-            {"src": "/img/projects/allg/before/home-m.png", "caption": "Before — ALT Fab on mobile", "narrow": true},
-            {"src": "/img/projects/allg/after/home-m.png", "caption": "After — allG on mobile", "narrow": true},
-            {"src": "/img/projects/allg/before/product-m.png", "caption": "Before — mobile product browsing", "narrow": true},
-            {"src": "/img/projects/allg/after/products-m.png", "caption": "After — mobile products", "narrow": true}
+            {
+              "src": "/img/projects/allg/before/home-d.png",
+              "caption": "Before — the ALT Fab home page (2017)"
+            },
+            {
+              "src": "/img/projects/allg/after/home-d.png",
+              "caption": "After — the allG home page, live today"
+            },
+            {
+              "src": "/img/projects/allg/before/pdp-d.png",
+              "caption": "Before — product detail on ALT Fab"
+            },
+            {
+              "src": "/img/projects/allg/after/products-d.png",
+              "caption": "After — allG products"
+            },
+            {
+              "src": "/img/projects/allg/before/about-d.png",
+              "caption": "Before — ALT Fab about page"
+            },
+            {
+              "src": "/img/projects/allg/after/about-d.png",
+              "caption": "After — allG about page"
+            },
+            {
+              "src": "/img/projects/allg/before/contact-d.png",
+              "caption": "Before — ALT Fab contact page"
+            },
+            {
+              "src": "/img/projects/allg/after/contact-d.png",
+              "caption": "After — allG contact page"
+            },
+            {
+              "src": "/img/projects/allg/before/home-m.png",
+              "caption": "Before — ALT Fab on mobile",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/allg/after/home-m.png",
+              "caption": "After — allG on mobile",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/allg/before/product-m.png",
+              "caption": "Before — mobile product browsing",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/allg/after/products-m.png",
+              "caption": "After — mobile products",
+              "narrow": true
+            }
           ]
         },
         {
           "title": "The Brand in the Wild",
           "items": [
-            {"src": "/img/projects/allg/business-cards.jpg", "caption": "Business cards"},
-            {"src": "/img/projects/allg/truck.jpg", "caption": "Fleet branding"},
-            {"src": "/img/projects/allg/product-guide.jpg", "caption": "Product guide cover"},
-            {"src": "/img/projects/allg/product-guide2.jpg", "caption": "Product guide interior"},
-            {"src": "/img/projects/allg/computer-shot2.png", "caption": "Storefront category page"},
-            {"src": "/img/projects/allg/forklift.jpg", "caption": "Equipment branding"}
+            {
+              "src": "/img/projects/allg/business-cards.jpg",
+              "caption": "Business cards"
+            },
+            {
+              "src": "/img/projects/allg/truck.jpg",
+              "caption": "Fleet branding"
+            },
+            {
+              "src": "/img/projects/allg/product-guide.jpg",
+              "caption": "Product guide cover"
+            },
+            {
+              "src": "/img/projects/allg/product-guide2.jpg",
+              "caption": "Product guide interior"
+            },
+            {
+              "src": "/img/projects/allg/computer-shot2.png",
+              "caption": "Storefront category page"
+            },
+            {
+              "src": "/img/projects/allg/forklift.jpg",
+              "caption": "Equipment branding"
+            }
           ]
         }
       ],
@@ -286,14 +672,29 @@
       ],
       "iteration": [],
       "metrics": [
-        {"value": "100%", "label": "Of purchases now completable online — no sales rep required"},
-        {"value": "~500%", "label": "Surge in site traffic after launch"},
-        {"value": "+15%", "label": "Revenue growth in the first year post-launch"}
+        {
+          "value": "100%",
+          "label": "Of purchases now completable online — no sales rep required"
+        },
+        {
+          "value": "~500%",
+          "label": "Surge in site traffic after launch"
+        },
+        {
+          "value": "+15%",
+          "label": "Revenue growth in the first year post-launch"
+        }
       ],
       "summary": "The redesign turned a contact-a-rep catalog into a self-serve storefront: visitors can now complete 100% of their purchases online, traffic surged nearly 500%, and the business grew roughly 15% in revenue in the first year after launch.",
       "links": [
-        {"label": "XD Prototype", "href": "https://xd.adobe.com/view/c5b1af2a-d61d-4eab-7457-73e3830a1a2b-b380/"},
-        {"label": "Live Site", "href": "https://allgfab.com"}
+        {
+          "label": "XD Prototype",
+          "href": "https://xd.adobe.com/view/c5b1af2a-d61d-4eab-7457-73e3830a1a2b-b380/"
+        },
+        {
+          "label": "Live Site",
+          "href": "https://allgfab.com"
+        }
       ]
     },
     {
@@ -306,27 +707,62 @@
       "role": "Lead UX Designer, Web Developer & Digital Marketing Strategist",
       "timeline": "October 2024",
       "team": "Solo",
-      "tags": ["UX Design", "Vue / Nuxt Development", "Technical SEO", "Local SEO", "JAMstack"],
+      "tags": [
+        "UX Design",
+        "Vue / Nuxt Development",
+        "Technical SEO",
+        "Local SEO",
+        "JAMstack"
+      ],
       "challenge": [
         "The company's website hadn't been updated since 2007 — nearly two decades of web evolution had passed it by. Beyond the dated experience, the business was invisible where local customers actually look: no Google Business listing, no structured data, and no local search presence to speak of.",
         "As a direct client engagement, I handled all of it solo — UX design, development, migration, deployment, and the technical SEO strategy."
       ],
       "work": [
-        {"title": "Redesign & Rebuild", "problem": "A 2007-era site couldn't represent a company that had been serving Bozeman for over 25 years — on any screen size.", "solution": "A ground-up redesign built as a custom Vue/Nuxt.js site: modern, fast, responsive, and structured around the two actions that matter for an HVAC business — call or send a service request.", "image": "/img/projects/bridger/after-services.png", "caption": "The rebuilt services page"},
-        {"title": "Local Search Foundation", "problem": "Customers searching “HVAC Bozeman” couldn't find the company — there was no Google Business listing and no structured data for search engines to work with.", "solution": "Set up their Google Business listing and implemented full schema.org LocalBusiness markup across the site, giving local search everything it needs to surface the business."},
-        {"title": "Migration & Free Hosting", "problem": "The old site carried a legacy hosting bill of over $40/month for a site that barely changed.", "solution": "Migrated everything to static hosting on Netlify — faster delivery, zero hosting cost, and deploys the owner never has to think about."}
+        {
+          "title": "Redesign & Rebuild",
+          "problem": "A 2007-era site couldn't represent a company that had been serving Bozeman for over 25 years — on any screen size.",
+          "solution": "A ground-up redesign built as a custom Vue/Nuxt.js site: modern, fast, responsive, and structured around the two actions that matter for an HVAC business — call or send a service request.",
+          "image": "/img/projects/bridger/after-services.png",
+          "caption": "The rebuilt services page"
+        },
+        {
+          "title": "Local Search Foundation",
+          "problem": "Customers searching “HVAC Bozeman” couldn't find the company — there was no Google Business listing and no structured data for search engines to work with.",
+          "solution": "Set up their Google Business listing and implemented full schema.org LocalBusiness markup across the site, giving local search everything it needs to surface the business."
+        },
+        {
+          "title": "Migration & Free Hosting",
+          "problem": "The old site carried a legacy hosting bill of over $40/month for a site that barely changed.",
+          "solution": "Migrated everything to static hosting on Netlify — faster delivery, zero hosting cost, and deploys the owner never has to think about."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "5x", "label": "Increase in website form submissions"},
-        {"value": "~2x", "label": "Phone calls nearly doubled"},
-        {"value": "$40+/mo → $0", "label": "Hosting costs eliminated with static Netlify hosting"}
+        {
+          "value": "5x",
+          "label": "Increase in website form submissions"
+        },
+        {
+          "value": "~2x",
+          "label": "Phone calls nearly doubled"
+        },
+        {
+          "value": "$40+/mo → $0",
+          "label": "Hosting costs eliminated with static Netlify hosting"
+        }
       ],
       "summary": "A small-business engagement covering the full stack of my work — UX, development, and search strategy. The site went from a 2007 relic to a modern Vue/Nuxt build that actually generates business: 5x the form submissions, nearly double the calls, and a hosting bill of zero.",
       "links": [
-        {"label": "The Redesign", "href": "https://bridgerheating.com/"},
-        {"label": "The Old Website", "href": "https://web.archive.org/web/20220518224037/http://www.bridgerheating.com/"}
+        {
+          "label": "The Redesign",
+          "href": "https://bridgerheating.com/"
+        },
+        {
+          "label": "The Old Website",
+          "href": "https://web.archive.org/web/20220518224037/http://www.bridgerheating.com/"
+        }
       ]
     },
     {
@@ -339,26 +775,56 @@
       "role": "Lead UX/UI Designer & Developer",
       "timeline": "2015 – 2020",
       "team": "In-house design lead, working closely with backend engineers, marketing, and sales",
-      "tags": ["Product Design", "SaaS Admin UI", "Dashboards", "Web Development", "Technical Marketing"],
+      "tags": [
+        "Product Design",
+        "SaaS Admin UI",
+        "Dashboards",
+        "Web Development",
+        "Technical Marketing"
+      ],
       "challenge": [
         "Data-quality software lives in an unglamorous place: inside ERP systems, used by administrators who configure integrations and end users who just need clean contact data. The CLEAN_Data suite needed interfaces that made both audiences productive — and public-facing sites that could explain enterprise address verification to buyers.",
         "As the company's lead UX/UI designer and developer, I owned both sides: the product interfaces and the marketing presence — while also leading graphic design and marketing campaigns. (Runner's sister company, <a href=\"/projects/surveydig.html\">SurveyDIG</a>, was part of the same role — it has its own case study.)"
       ],
       "work": [
-        {"title": "CLEAN_Data Suite Admin Panels", "problem": "Admins configuring data validation and address verification across Oracle-integrated systems needed interfaces that didn't require a manual to operate.", "solution": "Responsive admin experiences for the suite — configuration, data validation, and address verification workflows designed to be self-evident. Customer savings of 30% annually were attributed to the combination of seamless design and the verification technology underneath."},
-        {"title": "End-User Dashboards", "problem": "The people whose data was being cleaned — HR teams, registrars, advancement offices — needed visibility without admin-level complexity.", "solution": "End-user dashboards for the CLEAN_Data suite, designed around what each role actually needs to see and act on."},
-        {"title": "The Sites That Sold It", "problem": "Enterprise data quality is a hard product to explain — and the primary websites and campaigns were part of my desk too.", "solution": "Designed and built the company's primary websites and product landing pages — like the CLEAN_Employee page above — plus the graphic design and marketing campaigns that supported sales."}
+        {
+          "title": "CLEAN_Data Suite Admin Panels",
+          "problem": "Admins configuring data validation and address verification across Oracle-integrated systems needed interfaces that didn't require a manual to operate.",
+          "solution": "Responsive admin experiences for the suite — configuration, data validation, and address verification workflows designed to be self-evident. Customer savings of 30% annually were attributed to the combination of seamless design and the verification technology underneath."
+        },
+        {
+          "title": "End-User Dashboards",
+          "problem": "The people whose data was being cleaned — HR teams, registrars, advancement offices — needed visibility without admin-level complexity.",
+          "solution": "End-user dashboards for the CLEAN_Data suite, designed around what each role actually needs to see and act on."
+        },
+        {
+          "title": "The Sites That Sold It",
+          "problem": "Enterprise data quality is a hard product to explain — and the primary websites and campaigns were part of my desk too.",
+          "solution": "Designed and built the company's primary websites and product landing pages — like the CLEAN_Employee page above — plus the graphic design and marketing campaigns that supported sales."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "30%", "label": "Annual customer savings attributed to seamless design, data validation, and address verification"}
+        {
+          "value": "30%",
+          "label": "Annual customer savings attributed to seamless design, data validation, and address verification"
+        }
       ],
       "summary": "Five years covering the full surface of a B2B software company: product UX for admins and end users, the engineering handshake with backend teams, and the marketing design that kept the pipeline full.",
       "links": [
-        {"label": "CLEAN_Employee Landing Page", "href": "https://cleanemployee.netlify.app"},
-        {"label": "CLEAN_Data Demo", "href": "https://www.youtube.com/watch?v=lO21YxiEh-w"},
-        {"label": "RunnerEDQ.com", "href": "https://www.runneredq.com"}
+        {
+          "label": "CLEAN_Employee Landing Page",
+          "href": "https://cleanemployee.netlify.app"
+        },
+        {
+          "label": "CLEAN_Data Demo",
+          "href": "https://www.youtube.com/watch?v=lO21YxiEh-w"
+        },
+        {
+          "label": "RunnerEDQ.com",
+          "href": "https://www.runneredq.com"
+        }
       ]
     },
     {
@@ -371,28 +837,65 @@
       "role": "Graphic Designer → Digital Marketing Manager · Lead UX Designer & Webmaster",
       "timeline": "2012 – 2016 in-house, consulting through 2018",
       "team": "In-house marketing team; independent consultant for the final two years",
-      "tags": ["Brand Design", "UX Design", "Web Development", "Digital Marketing", "Print Design"],
+      "tags": [
+        "Brand Design",
+        "UX Design",
+        "Web Development",
+        "Digital Marketing",
+        "Print Design"
+      ],
       "challenge": [
         "I joined as a graphic designer and worked up to digital marketing manager — becoming the company's lead UX designer and webmaster along the way. The role spanned every surface the company showed the world: public websites, the internal sales portal, and all digital and print marketing material.",
         "The defining event was an $86M acquisition — which meant a brand redesign and growth marketing push while keeping every existing channel running."
       ],
       "work": [
-        {"title": "Post-Acquisition Brand Redesign", "problem": "An $86M acquisition meant a new identity had to roll out across web, print, and sales channels without stalling the business.", "solution": "Spearheaded the brand redesign and the growth marketing that followed it — the rebrand presentation is linked below."},
-        {"title": "Public Websites", "problem": "The public web presence had to serve very different audiences — clinicians evaluating products and donors supporting the mission.", "solution": "Led the design, development, and ongoing management of the public-facing websites, growing traffic 45% and donor outreach 25%."},
-        {"title": "Internal Sales Portal", "problem": "Field reps needed product and sales material faster than the existing internal tools could deliver it.", "solution": "Built an improved internal sales portal that expedited field delivery time by nearly 50%."},
-        {"title": "Every Piece of Collateral", "problem": "Digital and print marketing material all ran through one desk.", "solution": "Led the design of all digital and print marketing material across the six-year engagement."}
+        {
+          "title": "Post-Acquisition Brand Redesign",
+          "problem": "An $86M acquisition meant a new identity had to roll out across web, print, and sales channels without stalling the business.",
+          "solution": "Spearheaded the brand redesign and the growth marketing that followed it — the rebrand presentation is linked below."
+        },
+        {
+          "title": "Public Websites",
+          "problem": "The public web presence had to serve very different audiences — clinicians evaluating products and donors supporting the mission.",
+          "solution": "Led the design, development, and ongoing management of the public-facing websites, growing traffic 45% and donor outreach 25%."
+        },
+        {
+          "title": "Internal Sales Portal",
+          "problem": "Field reps needed product and sales material faster than the existing internal tools could deliver it.",
+          "solution": "Built an improved internal sales portal that expedited field delivery time by nearly 50%."
+        },
+        {
+          "title": "Every Piece of Collateral",
+          "problem": "Digital and print marketing material all ran through one desk.",
+          "solution": "Led the design of all digital and print marketing material across the six-year engagement."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "45%", "label": "Increase in public website traffic"},
-        {"value": "25%", "label": "Increase in donor outreach"},
-        {"value": "~50%", "label": "Faster field delivery via the rebuilt sales portal"}
+        {
+          "value": "45%",
+          "label": "Increase in public website traffic"
+        },
+        {
+          "value": "25%",
+          "label": "Increase in donor outreach"
+        },
+        {
+          "value": "~50%",
+          "label": "Faster field delivery via the rebuilt sales portal"
+        }
       ],
       "summary": "A six-year arc from graphic designer to digital marketing manager — proof that design, development, and marketing run better as one discipline. Public web, internal tools, brand, and print, all through a company-defining acquisition.",
       "links": [
-        {"label": "Xtant Today", "href": "https://xtantmedical.com"},
-        {"label": "Rebrand Presentation (PPT)", "href": "/downloads/xtant-brand-presentation.pptx"}
+        {
+          "label": "Xtant Today",
+          "href": "https://xtantmedical.com"
+        },
+        {
+          "label": "Rebrand Presentation (PPT)",
+          "href": "/downloads/xtant-brand-presentation.pptx"
+        }
       ]
     },
     {
@@ -405,53 +908,159 @@
       "role": "Lead Product Designer & Front-End Developer",
       "timeline": "2015 – 2020",
       "team": "In-house at Runner EDQ, alongside backend engineers",
-      "tags": ["Product Research", "UX Design", "Front-End Development", "Accessibility", "Higher Ed"],
+      "tags": [
+        "Product Research",
+        "UX Design",
+        "Front-End Development",
+        "Accessibility",
+        "Higher Ed"
+      ],
       "challenge": [
         "Course evaluations only work if students actually finish them — and students take surveys on whatever device is in their hand, in whatever context they're in, with whatever assistive technology they rely on. The legacy survey front end wasn't built for any of that.",
         "The product serves both sides of the classroom: students taking tests and completing course surveys, and the evaluation of professors and university administrators. I led product research, design, and front-end development for the product and its marketing website."
       ],
       "work": [
-        {"title": "The Responsive Form Rebuild", "problem": "The student survey front end predated the devices students actually used — long evaluation forms that fought small screens.", "solution": "A complete rebuild of the survey front-end framework: fully responsive, so students can take surveys and tests on any device, anywhere there's a connection. Try the live form pattern below.", "embed": "https://codepen.io/silencekillsdesign/embed/Wxrpvd?default-tab=result", "caption": "The responsive evaluation form — a live CodePen of the rebuilt pattern"},
-        {"title": "Accessible to Every Student", "problem": "Accessibility wasn't a feature of the legacy forms — it was a gap, and universities answer to accessibility requirements.", "solution": "Accessibility built into the rebuilt framework and verified by testing: a 60% increase in accessibility scoring, and 100% screen-reader accessibility across the survey experience."},
-        {"title": "Both Sides of the Classroom", "problem": "Students, professors, and administrators all touch the product with entirely different jobs to do.", "solution": "Designed for the full loop — students completing tests and course surveys, and the evaluation flows for professors and university admin on the other side.", "image": "/img/projects/surveydig/features.png", "caption": "The product marketing site — also part of the role"}
+        {
+          "title": "The Responsive Form Rebuild",
+          "problem": "The student survey front end predated the devices students actually used — long evaluation forms that fought small screens.",
+          "solution": "A complete rebuild of the survey front-end framework: fully responsive, so students can take surveys and tests on any device, anywhere there's a connection. Try the live form pattern below.",
+          "embed": "https://codepen.io/silencekillsdesign/embed/Wxrpvd?default-tab=result",
+          "caption": "The responsive evaluation form — a live CodePen of the rebuilt pattern"
+        },
+        {
+          "title": "Accessible to Every Student",
+          "problem": "Accessibility wasn't a feature of the legacy forms — it was a gap, and universities answer to accessibility requirements.",
+          "solution": "Accessibility built into the rebuilt framework and verified by testing: a 60% increase in accessibility scoring, and 100% screen-reader accessibility across the survey experience."
+        },
+        {
+          "title": "Both Sides of the Classroom",
+          "problem": "Students, professors, and administrators all touch the product with entirely different jobs to do.",
+          "solution": "Designed for the full loop — students completing tests and course surveys, and the evaluation flows for professors and university admin on the other side.",
+          "image": "/img/projects/surveydig/features.png",
+          "caption": "The product marketing site — also part of the role"
+        }
       ],
       "galleryTitle": "The Wireframes",
       "gallery": [
-        {"src": "/img/projects/surveydig/wireframes/1a-login.jpg", "caption": "Login"},
-        {"src": "/img/projects/surveydig/wireframes/1b-respondent-dashboard.jpg", "caption": "Respondent dashboard"},
-        {"src": "/img/projects/surveydig/wireframes/1c-form-matrix.jpg", "caption": "Evaluation form — matrix pattern, desktop & mobile"},
-        {"src": "/img/projects/surveydig/wireframes/1d-form-stepped.jpg", "caption": "Evaluation form — stepped sections"},
-        {"src": "/img/projects/surveydig/wireframes/1e-form-one-at-a-time.jpg", "caption": "Evaluation form — one question at a time"},
-        {"src": "/img/projects/surveydig/wireframes/1f-field-kit.jpg", "caption": "Form field kit"},
-        {"src": "/img/projects/surveydig/wireframes/1g-empty-error-states.jpg", "caption": "Empty & error states"},
-        {"src": "/img/projects/surveydig/wireframes/1h-self-assessment.jpg", "caption": "Instructor self-assessment"},
-        {"src": "/img/projects/surveydig/wireframes/1i-instructor-summary.jpg", "caption": "Instructor summary"},
-        {"src": "/img/projects/surveydig/wireframes/1j-form-library.jpg", "caption": "Form library"},
-        {"src": "/img/projects/surveydig/wireframes/1k-wizard-inline.jpg", "caption": "Form builder wizard — inline"},
-        {"src": "/img/projects/surveydig/wireframes/1l-wizard-stepped.jpg", "caption": "Form builder wizard — stepped"},
-        {"src": "/img/projects/surveydig/wireframes/1m-question-bank.jpg", "caption": "Question bank"},
-        {"src": "/img/projects/surveydig/wireframes/1n-responses-table.jpg", "caption": "Responses table"},
-        {"src": "/img/projects/surveydig/wireframes/1o-response-detail.jpg", "caption": "Response detail"},
-        {"src": "/img/projects/surveydig/wireframes/1p-comment-coding.jpg", "caption": "Comment coding"},
-        {"src": "/img/projects/surveydig/wireframes/1q-admin-users.jpg", "caption": "Admin — users & roles"},
-        {"src": "/img/projects/surveydig/wireframes/1r-admin-branding.jpg", "caption": "Admin — institution branding"},
-        {"src": "/img/projects/surveydig/wireframes/1s-response-rate-monitor.jpg", "caption": "Response-rate monitor"},
-        {"src": "/img/projects/surveydig/wireframes/1t-audit-log.jpg", "caption": "Audit log"},
-        {"src": "/img/projects/surveydig/wireframes/1u-reports.jpg", "caption": "Reports"},
-        {"src": "/img/projects/surveydig/wireframes/1v-export-share.jpg", "caption": "Export & share"}
+        {
+          "src": "/img/projects/surveydig/wireframes/1a-login.jpg",
+          "caption": "Login"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1b-respondent-dashboard.jpg",
+          "caption": "Respondent dashboard"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1c-form-matrix.jpg",
+          "caption": "Evaluation form — matrix pattern, desktop & mobile"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1d-form-stepped.jpg",
+          "caption": "Evaluation form — stepped sections"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1e-form-one-at-a-time.jpg",
+          "caption": "Evaluation form — one question at a time"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1f-field-kit.jpg",
+          "caption": "Form field kit"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1g-empty-error-states.jpg",
+          "caption": "Empty & error states"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1h-self-assessment.jpg",
+          "caption": "Instructor self-assessment"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1i-instructor-summary.jpg",
+          "caption": "Instructor summary"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1j-form-library.jpg",
+          "caption": "Form library"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1k-wizard-inline.jpg",
+          "caption": "Form builder wizard — inline"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1l-wizard-stepped.jpg",
+          "caption": "Form builder wizard — stepped"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1m-question-bank.jpg",
+          "caption": "Question bank"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1n-responses-table.jpg",
+          "caption": "Responses table"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1o-response-detail.jpg",
+          "caption": "Response detail"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1p-comment-coding.jpg",
+          "caption": "Comment coding"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1q-admin-users.jpg",
+          "caption": "Admin — users & roles"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1r-admin-branding.jpg",
+          "caption": "Admin — institution branding"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1s-response-rate-monitor.jpg",
+          "caption": "Response-rate monitor"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1t-audit-log.jpg",
+          "caption": "Audit log"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1u-reports.jpg",
+          "caption": "Reports"
+        },
+        {
+          "src": "/img/projects/surveydig/wireframes/1v-export-share.jpg",
+          "caption": "Export & share"
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "45%", "label": "Increase in student form completion"},
-        {"value": "60%", "label": "Increase in accessibility scoring and testing"},
-        {"value": "100%", "label": "Screen-reader accessible"}
+        {
+          "value": "45%",
+          "label": "Increase in student form completion"
+        },
+        {
+          "value": "60%",
+          "label": "Increase in accessibility scoring and testing"
+        },
+        {
+          "value": "100%",
+          "label": "Screen-reader accessible"
+        }
       ],
       "summary": "Accessibility and responsiveness weren't polish — they were the product thesis. Rebuilding the forms around every device and every reader raised student completion 45%, which is the number a course-evaluation product lives or dies by.",
       "links": [
-        {"label": "SurveyDIG Website", "href": "https://surveydig.com/"},
-        {"label": "Responsive Form on CodePen", "href": "https://codepen.io/silencekillsdesign/pen/Wxrpvd"},
-        {"label": "Runner EDQ Case Study", "href": "/projects/runner-edq.html"}
+        {
+          "label": "SurveyDIG Website",
+          "href": "https://surveydig.com/"
+        },
+        {
+          "label": "Responsive Form on CodePen",
+          "href": "https://codepen.io/silencekillsdesign/pen/Wxrpvd"
+        },
+        {
+          "label": "Runner EDQ Case Study",
+          "href": "/projects/runner-edq.html"
+        }
       ]
     },
     {
@@ -464,23 +1073,46 @@
       "role": "UX Research & Design, Front-End Development, Content, Technical SEO",
       "timeline": "2022",
       "team": "Digital lead within the Sievert family of companies",
-      "tags": ["UX Design", "Front-End Development", "Content Creation", "Technical SEO"],
+      "tags": [
+        "UX Design",
+        "Front-End Development",
+        "Content Creation",
+        "Technical SEO"
+      ],
       "challenge": [
         "Starting July 1st, 2022, Illinois businesses and residents could receive up to an 80% rebate for installing EV chargers — a real reason for property managers to act now. Chicago EV was stood up to catch that moment: a new company with no digital presence, needing a credible informational site aimed at large parking complexes, commercial properties, and multi-unit residential buildings.",
         "This was an awareness play rather than an e-commerce build — the site's job was to explain the offering, establish credibility, and turn the rebate window into inquiries."
       ],
       "work": [
-        {"title": "Positioning a New Company", "problem": "EV-charger installation at building scale was an unfamiliar purchase for most property managers — and Chicago EV was an unknown name.", "solution": "Content and information architecture built around the questions a property manager actually asks: the rebate program, the services, the products — with the Sievert companies' decades of electrical experience as the credibility anchor."},
-        {"title": "Design & Build", "problem": "A new venture needed a presence fast, without heavy infrastructure.", "solution": "Designed and built the full site front to back, deployed as a static site on Netlify — the same fast, zero-maintenance model I use for small-business builds."},
-        {"title": "Technical SEO", "problem": "\"EV charger installation Chicago\" queries were exactly where prospects would start.", "solution": "Technical SEO implementation across the site so the new domain could compete for local commercial-intent searches."}
+        {
+          "title": "Positioning a New Company",
+          "problem": "EV-charger installation at building scale was an unfamiliar purchase for most property managers — and Chicago EV was an unknown name.",
+          "solution": "Content and information architecture built around the questions a property manager actually asks: the rebate program, the services, the products — with the Sievert companies' decades of electrical experience as the credibility anchor."
+        },
+        {
+          "title": "Design & Build",
+          "problem": "A new venture needed a presence fast, without heavy infrastructure.",
+          "solution": "Designed and built the full site front to back, deployed as a static site on Netlify — the same fast, zero-maintenance model I use for small-business builds."
+        },
+        {
+          "title": "Technical SEO",
+          "problem": "\"EV charger installation Chicago\" queries were exactly where prospects would start.",
+          "solution": "Technical SEO implementation across the site so the new domain could compete for local commercial-intent searches."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [],
       "summary": "A small, honest project: no dramatic numbers to report — just a new company given a credible face and a clear pitch, shipped in time for the rebate window that justified its existence.",
       "links": [
-        {"label": "Chicago EV Live Site", "href": "https://chicagoev.netlify.app/"},
-        {"label": "Hoists.com Case Study", "href": "/projects/hoists.html"}
+        {
+          "label": "Chicago EV Live Site",
+          "href": "https://chicagoev.netlify.app/"
+        },
+        {
+          "label": "Hoists.com Case Study",
+          "href": "/projects/hoists.html"
+        }
       ]
     },
     {
@@ -493,27 +1125,61 @@
       "role": "Founder — designer, developer, marketer, producer",
       "timeline": "2014 – 2021",
       "team": "Solo practice",
-      "tags": ["Branding", "Marketing & Advertising", "Software Development", "Audio / Video Production", "SEO"],
+      "tags": [
+        "Branding",
+        "Marketing & Advertising",
+        "Software Development",
+        "Audio / Video Production",
+        "SEO"
+      ],
       "challenge": [
         "From 2014 to 2021, SilenceKillsDesign was my freelance company — and the answer to a question every small client asks: why hire four vendors when one person can carry the brand, the site, the marketing, and the media?",
         "Over seven years the studio served more than 70 clients across hundreds of projects, spanning branding, marketing, advertising, software development, and audio/video production. The studio's name still carries my independent work today — it's the byline behind several projects on this site."
       ],
       "work": [
-        {"title": "Branding", "problem": "Small businesses rarely have an identity that matches the quality of their work.", "solution": "Logos, identity systems, and brand foundations that clients could grow into — the discipline that anchored most engagements."},
-        {"title": "Marketing & Advertising", "problem": "A brand without reach is a file on a shelf.", "solution": "Campaigns, content, SEO, and advertising that turned identities into qualified leads."},
-        {"title": "Software & Web Development", "problem": "Most agencies design it and hand it off; most developers build it and never question the design.", "solution": "Designed and built as one motion — websites and software carried from concept through deployment."},
-        {"title": "Audio / Video Production", "problem": "Clients needed media as often as they needed pixels.", "solution": "Audio and video production in-house — the studio's range meant the whole deliverable, not a referral."}
+        {
+          "title": "Branding",
+          "problem": "Small businesses rarely have an identity that matches the quality of their work.",
+          "solution": "Logos, identity systems, and brand foundations that clients could grow into — the discipline that anchored most engagements."
+        },
+        {
+          "title": "Marketing & Advertising",
+          "problem": "A brand without reach is a file on a shelf.",
+          "solution": "Campaigns, content, SEO, and advertising that turned identities into qualified leads."
+        },
+        {
+          "title": "Software & Web Development",
+          "problem": "Most agencies design it and hand it off; most developers build it and never question the design.",
+          "solution": "Designed and built as one motion — websites and software carried from concept through deployment."
+        },
+        {
+          "title": "Audio / Video Production",
+          "problem": "Clients needed media as often as they needed pixels.",
+          "solution": "Audio and video production in-house — the studio's range meant the whole deliverable, not a referral."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "70+", "label": "Clients served"},
-        {"value": "100s", "label": "Of projects delivered"},
-        {"value": "7", "label": "Years of independent practice"}
+        {
+          "value": "70+",
+          "label": "Clients served"
+        },
+        {
+          "value": "100s",
+          "label": "Of projects delivered"
+        },
+        {
+          "value": "7",
+          "label": "Years of independent practice"
+        }
       ],
       "summary": "The studio is where the generalist range on this portfolio comes from — brand, code, marketing, and media practiced as one craft, for anyone from a construction company to a SaaS startup.",
       "links": [
-        {"label": "SilenceKillsDesign.com", "href": "https://silencekillsdesign.com"}
+        {
+          "label": "SilenceKillsDesign.com",
+          "href": "https://silencekillsdesign.com"
+        }
       ]
     },
     {
@@ -526,23 +1192,47 @@
       "role": "Brand, Wireframing, UX Design, Content Curation & Photo Editing",
       "timeline": "SilenceKillsDesign engagement",
       "team": "Freelance, via SilenceKillsDesign",
-      "tags": ["Branding", "Wireframing", "UX Design", "Content Curation", "Photo Editing"],
+      "tags": [
+        "Branding",
+        "Wireframing",
+        "UX Design",
+        "Content Curation",
+        "Photo Editing"
+      ],
       "challenge": [
         "A builder of multi-million-dollar custom homes had a digital presence that undersold four decades of work. Their own philosophy — \"the work doesn't speak for itself; it tells half the story\" — applied to their website too: the houses were extraordinary, and the site telling their story wasn't.",
         "The job was to bring the brand and site up to the standard of the homes: identity, structure, and above all the photography that does the actual selling."
       ],
       "work": [
-        {"title": "Brand & Identity", "problem": "Forty years of reputation, carried by word of mouth more than by any visual identity.", "solution": "Brand work built around restraint — the \"Dream. We Build.\" positioning lets the portfolio be the argument, with the mark and typography staying out of the photography's way."},
-        {"title": "Wireframing & UX", "problem": "Luxury home buyers don't browse spec sheets — they need to feel the standard of work within seconds.", "solution": "Wireframed a photography-first structure where full-bleed imagery leads every page and the site's job is to get out of the way of the houses."},
-        {"title": "Content Curation & Photo Editing", "problem": "The raw material was project photography of wildly varying vintage and quality.", "solution": "Curated the portfolio down to the work that makes the case, and edited the photography so every image holds up at full-screen scale."}
+        {
+          "title": "Brand & Identity",
+          "problem": "Forty years of reputation, carried by word of mouth more than by any visual identity.",
+          "solution": "Brand work built around restraint — the \"Dream. We Build.\" positioning lets the portfolio be the argument, with the mark and typography staying out of the photography's way."
+        },
+        {
+          "title": "Wireframing & UX",
+          "problem": "Luxury home buyers don't browse spec sheets — they need to feel the standard of work within seconds.",
+          "solution": "Wireframed a photography-first structure where full-bleed imagery leads every page and the site's job is to get out of the way of the houses."
+        },
+        {
+          "title": "Content Curation & Photo Editing",
+          "problem": "The raw material was project photography of wildly varying vintage and quality.",
+          "solution": "Curated the portfolio down to the work that makes the case, and edited the photography so every image holds up at full-screen scale."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [],
       "summary": "No dashboard numbers to report on this one — the outcome is the site itself: a 40-year builder finally presented at the standard of its own work, with the portfolio doing the selling.",
       "links": [
-        {"label": "Keating Moore Live", "href": "https://keatingmoore.com/"},
-        {"label": "The Old Website", "href": "https://web.archive.org/web/20190109225211/https://keatingmoore.com/"}
+        {
+          "label": "Keating Moore Live",
+          "href": "https://keatingmoore.com/"
+        },
+        {
+          "label": "The Old Website",
+          "href": "https://web.archive.org/web/20190109225211/https://keatingmoore.com/"
+        }
       ]
     },
     {
@@ -555,25 +1245,54 @@
       "role": "UX Research, Design, Development & SEO — end to end",
       "timeline": "2026 — launched June 2026",
       "team": "Solo, research through deployment",
-      "tags": ["UX Research", "Wireframing", "UI Design", "Next.js Development", "Technical SEO"],
+      "tags": [
+        "UX Research",
+        "Wireframing",
+        "UI Design",
+        "Next.js Development",
+        "Technical SEO"
+      ],
       "challenge": [
         "Twenty-five years of building in Montana, and not a single page of web presence — every lead came by phone and word of mouth. The first website had to do two jobs at once: establish the credibility the company had already earned, and turn visitors into estimate requests.",
         "I carried it end to end: UX research, wireframes, hi-fi designs, web development, technical SEO, and deployment."
       ],
       "work": [
-        {"title": "Research to Hi-Fi", "problem": "With no existing site, there was no baseline — the positioning, structure, and visual language all had to be built from research.", "solution": "UX research into how people hire builders and roofers, wireframes for the estimate-first structure, and hi-fi designs around the \"Build to Last\" positioning — dark, confident, and led by their own project photography."},
-        {"title": "The Build", "problem": "A small company needs a fast site with no maintenance burden.", "solution": "A custom Next.js / React / Tailwind build deployed on Netlify — modern, fast, and cheap to run, with quote requests as the site's primary conversion path.", "image": "/img/projects/aquablock/projects.png", "caption": "The projects page — the work does the selling"},
-        {"title": "Getting Found in Bozeman", "problem": "A first web presence starts invisible to search.", "solution": "Technical SEO across the site at launch. Google Business verification is in progress, with paid ad campaigns queued to follow — the site is the foundation the whole acquisition strategy lands on."}
+        {
+          "title": "Research to Hi-Fi",
+          "problem": "With no existing site, there was no baseline — the positioning, structure, and visual language all had to be built from research.",
+          "solution": "UX research into how people hire builders and roofers, wireframes for the estimate-first structure, and hi-fi designs around the \"Build to Last\" positioning — dark, confident, and led by their own project photography."
+        },
+        {
+          "title": "The Build",
+          "problem": "A small company needs a fast site with no maintenance burden.",
+          "solution": "A custom Next.js / React / Tailwind build deployed on Netlify — modern, fast, and cheap to run, with quote requests as the site's primary conversion path.",
+          "image": "/img/projects/aquablock/projects.png",
+          "caption": "The projects page — the work does the selling"
+        },
+        {
+          "title": "Getting Found in Bozeman",
+          "problem": "A first web presence starts invisible to search.",
+          "solution": "Technical SEO across the site at launch. Google Business verification is in progress, with paid ad campaigns queued to follow — the site is the foundation the whole acquisition strategy lands on."
+        }
       ],
       "validation": [],
       "iteration": [],
       "metrics": [
-        {"value": "+25%", "label": "Increase in web contacts and leads since the June 2026 launch"},
-        {"value": "0 → 1", "label": "First web presence in 25 years of business"}
+        {
+          "value": "+25%",
+          "label": "Increase in web contacts and leads since the June 2026 launch"
+        },
+        {
+          "value": "0 → 1",
+          "label": "First web presence in 25 years of business"
+        }
       ],
       "summary": "The best kind of small-business result: a company that had never had a website went live in June and saw leads climb 25% within months — with Google Business verification and paid campaigns still to come.",
       "links": [
-        {"label": "Live Site", "href": "https://aquablockconstruction.com/"}
+        {
+          "label": "Live Site",
+          "href": "https://aquablockconstruction.com/"
+        }
       ]
     },
     {
@@ -586,15 +1305,32 @@
       "role": "Designer & Front-End Developer",
       "timeline": "2026",
       "team": "With the TEDxChicago organizing team",
-      "tags": ["Visual Design", "Front-End", "Build Tooling", "Performance"],
+      "tags": [
+        "Visual Design",
+        "Front-End",
+        "Build Tooling",
+        "Performance"
+      ],
       "challenge": [
         "TEDxChicago's site runs on Squarespace, but the 2026 event deserved a page the platform's templates couldn't produce — a bold, custom identity for the “We The People” theme with dot-matrix display type, the TEDx red quote-mark motif, and full creative control over layout and motion.",
         "The constraint: it still had to live inside Squarespace — same domain, same nav and footer, editable by the team — without a separate host or framework."
       ],
       "work": [
-        {"title": "The page", "problem": "Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.", "solution": "A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome."},
-        {"title": "The deployment pipeline", "problem": "Squarespace only accepts pasted code blocks, and pasting a whole page on every change doesn't scale.", "solution": "A build script that strips the local dev chrome and emits a paste-ready embed, with CSS, JS, and assets served from the public GitHub repo via jsDelivr's CDN — so most changes ship with a git push and a cache purge, no Squarespace edits at all."},
-        {"title": "Working within CDN limits", "problem": "jsDelivr caps files at 20 MB, caches for 12 hours, and is case-sensitive — easy ways to break a live event page.", "solution": "Large source masters stay out of the repo with optimized web derivatives committed instead, cache-busting is versioned, and the purge step is part of the deploy routine."}
+        {
+          "title": "The page",
+          "problem": "Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.",
+          "solution": "A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome."
+        },
+        {
+          "title": "The deployment pipeline",
+          "problem": "Squarespace only accepts pasted code blocks, and pasting a whole page on every change doesn't scale.",
+          "solution": "A build script that strips the local dev chrome and emits a paste-ready embed, with CSS, JS, and assets served from the public GitHub repo via jsDelivr's CDN — so most changes ship with a git push and a cache purge, no Squarespace edits at all."
+        },
+        {
+          "title": "Working within CDN limits",
+          "problem": "jsDelivr caps files at 20 MB, caches for 12 hours, and is case-sensitive — easy ways to break a live event page.",
+          "solution": "Large source masters stay out of the repo with optimized web derivatives committed instead, cache-busting is versioned, and the purge step is part of the deploy routine."
+        }
       ],
       "validation": [
         "Every change verified on the live Squarespace embed, not just locally",
@@ -608,7 +1344,10 @@
       "metrics": [],
       "summary": "The page is live at tedxchicago.com powering the 2026 event — a custom-designed, hand-coded experience running invisibly inside a template platform, with a deploy pipeline the team can live with.",
       "links": [
-        {"label": "Live Site", "href": "https://tedxchicago.com"}
+        {
+          "label": "Live Site",
+          "href": "https://tedxchicago.com"
+        }
       ]
     },
     {
@@ -621,15 +1360,39 @@
       "role": "Product Designer & Developer",
       "timeline": "2026 – In development",
       "team": "Solo — product, design system, and front end",
-      "tags": ["Product Design", "Design Systems", "Mobile UX", "Figma", "Nuxt 3"],
+      "tags": [
+        "Product Design",
+        "Design Systems",
+        "Mobile UX",
+        "Figma",
+        "Nuxt 3"
+      ],
       "challenge": [
         "Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofer inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.",
         "The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home."
       ],
       "work": [
-        {"title": "Urgency-first discovery", "problem": "Time-critical dogs get the same shelf position as every other listing.", "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.", "image": "/img/projects/floofer/match-deck.png", "caption": "The match deck — Bruno, 5 days left, 3 miles away", "narrow": true},
-        {"title": "A real design system first", "problem": "Solo side projects usually skip the system and pay for it at every screen.", "solution": "A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc."},
-        {"title": "Kind interaction rules", "problem": "One mis-tap on a 'pass' is a dog someone never sees again.", "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.", "image": "/img/projects/floofer/onboarding.png", "caption": "Sixty-second onboarding — fit questions, in plain language", "narrow": true}
+        {
+          "title": "Urgency-first discovery",
+          "problem": "Time-critical dogs get the same shelf position as every other listing.",
+          "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.",
+          "image": "/img/projects/floofer/match-deck.png",
+          "caption": "The match deck — Bruno, 5 days left, 3 miles away",
+          "narrow": true
+        },
+        {
+          "title": "A real design system first",
+          "problem": "Solo side projects usually skip the system and pay for it at every screen.",
+          "solution": "A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc."
+        },
+        {
+          "title": "Kind interaction rules",
+          "problem": "One mis-tap on a 'pass' is a dog someone never sees again.",
+          "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.",
+          "image": "/img/projects/floofer/onboarding.png",
+          "caption": "Sixty-second onboarding — fit questions, in plain language",
+          "narrow": true
+        }
       ],
       "validation": [
         "Playwright smoke suite covering the core flows",
@@ -643,7 +1406,10 @@
       "metrics": [],
       "summary": "An app with a thesis: visibility should follow urgency, and matches should follow fit. Built system-first — the Figma library and its dark/light token modes came before the first screen, and every component in the app traces back to it.",
       "links": [
-        {"label": "View the Code", "href": "https://github.com/silencekillsdesign/floofer"}
+        {
+          "label": "View the Code",
+          "href": "https://github.com/silencekillsdesign/floofer"
+        }
       ]
     }
   ]
