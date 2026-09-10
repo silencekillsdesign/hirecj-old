@@ -42,7 +42,7 @@
 
     <section>
       <h2>What I Did</h2>
-      <div class="pp-work"><h3><span>01</span> The page</h3><p class="pp-problem">Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.</p><p>A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome.</p></div>
+      <div class="pp-work"><h3><span>01</span> The page</h3><p class="pp-problem">Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.</p><p>A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome.</p><figure class="pp-fig"><img src="/img/projects/tedx/home-full.jpg" alt="The full page as it runs inside Squarespace today — click to scroll it end to end" loading="lazy" /><figcaption>The full page as it runs inside Squarespace today — click to scroll it end to end</figcaption></figure></div>
       <div class="pp-work"><h3><span>02</span> The deployment pipeline</h3><p class="pp-problem">Squarespace only accepts pasted code blocks, and pasting a whole page on every change doesn't scale.</p><p>A build script that strips the local dev chrome and emits a paste-ready embed, with CSS, JS, and assets served from the public GitHub repo via jsDelivr's CDN — so most changes ship with a git push and a cache purge, no Squarespace edits at all.</p></div>
       <div class="pp-work"><h3><span>03</span> Working within CDN limits</h3><p class="pp-problem">jsDelivr caps files at 20 MB, caches for 12 hours, and is case-sensitive — easy ways to break a live event page.</p><p>Large source masters stay out of the repo with optimized web derivatives committed instead, cache-busting is versioned, and the purge step is part of the deploy routine.</p></div>
     </section>
@@ -62,6 +62,14 @@
       <h2>The Outcome</h2>
       
       <p class="pp-summary">The page is live at tedxchicago.com powering the 2026 event — a custom-designed, hand-coded experience running invisibly inside a template platform, with a deploy pipeline the team can live with.</p>
+    </section>
+
+    <section>
+      <h2>Live at tedxchicago.com</h2>
+      <div class="pp-gallery">
+        <figure class="pp-narrow"><a href="/img/projects/tedx/mobile-home.jpg" target="_blank" rel="noopener"><img src="/img/projects/tedx/mobile-home.jpg" alt="The page on mobile" loading="lazy" /></a><figcaption>The page on mobile</figcaption></figure>
+        <figure class=""><a href="/img/projects/tedx/home-full.jpg" target="_blank" rel="noopener"><img src="/img/projects/tedx/home-full.jpg" alt="Desktop, top to bottom" loading="lazy" /></a><figcaption>Desktop, top to bottom</figcaption></figure>
+      </div>
     </section>
 
     <div class="pp-links">

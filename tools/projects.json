@@ -290,12 +290,17 @@
         {
           "title": "Catalog Architecture",
           "problem": "No taxonomy for 3,500+ SKUs spanning hoists, cranes, trolleys, and accessories.",
-          "solution": "A five-tier hierarchy — Product Family → Type → Capacity Class → Configuration → Variant — with smart filter logic suppressing incompatible combinations in real time."
+          "solution": "A five-tier hierarchy — Product Family → Type → Capacity Class → Configuration → Variant — with smart filter logic suppressing incompatible combinations in real time.",
+          "image": "/img/projects/hoists/products-filters.jpg",
+          "caption": "The catalog today — 728 products under the five-tier hierarchy"
         },
         {
           "title": "Smart Range Filters",
           "problem": "Every spec value was a standalone checkbox — lift heights from 1ft up, capacities to 20,000 lbs. Hundreds of options, no grouping, 5,000–10,000 visits per purchase.",
-          "solution": "Hundreds of checkboxes collapsed into intelligent capacity and height ranges that match how buyers think — light, medium, heavy industrial. Average purchase journey: two visits."
+          "solution": "Hundreds of checkboxes collapsed into intelligent capacity and height ranges that match how buyers think — light, medium, heavy industrial. Average purchase journey: two visits.",
+          "image": "/img/projects/hoists/filter-sidebar.jpg",
+          "caption": "The full filter stack — capacity, lift speed, and height grouped into ranges buyers actually think in",
+          "narrow": true
         },
         {
           "title": "AI Chat & ERP Integration",
@@ -338,6 +343,30 @@
         {
           "label": "Pre-Hoists.com",
           "href": "https://www.sievertcrane.com/"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "The Store Today",
+          "items": [
+            {
+              "src": "/img/projects/hoists/home.jpg",
+              "caption": "hoists.com home"
+            },
+            {
+              "src": "/img/projects/hoists/product-detail.jpg",
+              "caption": "Product detail — specs, stock, and freight built in"
+            },
+            {
+              "src": "/img/projects/hoists/mobile-products.jpg",
+              "caption": "The catalog on mobile",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/hoists/sievert-parent.jpg",
+              "caption": "Where it started — parent company Sievert Crane & Hoist"
+            }
+          ]
         }
       ]
     },
@@ -1319,7 +1348,9 @@
         {
           "title": "The page",
           "problem": "Squarespace templates couldn't deliver the event's visual identity or the layout control the design called for.",
-          "solution": "A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome."
+          "solution": "A hand-coded vanilla HTML/CSS/JS page — hero, speakers, tickets, FAQ — with all styles scoped under a single root element so nothing leaks into or out of the surrounding Squarespace chrome.",
+          "image": "/img/projects/tedx/home-full.jpg",
+          "caption": "The full page as it runs inside Squarespace today — click to scroll it end to end"
         },
         {
           "title": "The deployment pipeline",
@@ -1347,6 +1378,22 @@
         {
           "label": "Live Site",
           "href": "https://tedxchicago.com"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "Live at tedxchicago.com",
+          "items": [
+            {
+              "src": "/img/projects/tedx/mobile-home.jpg",
+              "caption": "The page on mobile",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/tedx/home-full.jpg",
+              "caption": "Desktop, top to bottom"
+            }
+          ]
         }
       ]
     },
