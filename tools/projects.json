@@ -1382,16 +1382,37 @@
       ],
       "galleries": [
         {
+          "title": "From Wireframes to the Page",
+          "items": [
+            {
+              "src": "/img/projects/tedx/wf-content-map.jpg",
+              "caption": "Content map — every row of the page planned before pixels"
+            },
+            {
+              "src": "/img/projects/tedx/wf-home.jpg",
+              "caption": "Home wireframe"
+            },
+            {
+              "src": "/img/projects/tedx/wf-partners.jpg",
+              "caption": "Partners wireframe"
+            },
+            {
+              "src": "/img/projects/tedx/wf-speakers.jpg",
+              "caption": "Speakers wireframe"
+            }
+          ]
+        },
+        {
           "title": "Live at tedxchicago.com",
           "items": [
             {
-              "src": "/img/projects/tedx/mobile-home.jpg",
-              "caption": "The page on mobile",
-              "narrow": true
+              "src": "/img/projects/tedx/home-full.jpg",
+              "caption": "The shipped page, top to bottom — click to scroll it end to end"
             },
             {
-              "src": "/img/projects/tedx/home-full.jpg",
-              "caption": "Desktop, top to bottom"
+              "src": "/img/projects/tedx/mobile-home.jpg",
+              "caption": "The hero on mobile",
+              "narrow": true
             }
           ]
         }
