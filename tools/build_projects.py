@@ -21,7 +21,7 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:title" content="{title} — CJ Williams" />
   <meta property="og:image" content="https://hirecj.com{hero}" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
-  <link href="/css/project.css?v=5" rel="stylesheet" type="text/css" />
+  <link href="/css/project.css?v=6" rel="stylesheet" type="text/css" />
   <script src="/js/lightbox.js?v=2" defer></script>
 </head>
 <body class="pp">
@@ -44,7 +44,7 @@ PAGE = """<!DOCTYPE html>
       <div><dt>Team</dt><dd>{team}</dd></div>
     </dl>
 
-    <p class="pp-tags">{tags}</p>
+    <div class="pp-tags">{tags}</div>
 
     <section>
       <h2>The Challenge</h2>
@@ -182,7 +182,7 @@ def build(p):
         role=p["role"],
         timeline=p["timeline"],
         team=p["team"],
-        tags=" &middot; ".join(p["tags"]),
+        tags="".join(f'<span class="pp-tag">{t}</span>' for t in p["tags"]),
         challenge=paragraphs(p["challenge"]),
         work=work,
         process=process,
