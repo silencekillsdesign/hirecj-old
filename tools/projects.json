@@ -731,7 +731,7 @@
       "kicker": "Case Study",
       "title": "Bridger Heating & Cooling",
       "subtitle": "A website untouched since 2007, rebuilt as a modern Vue/Nuxt site — form submissions up 5x, calls nearly doubled.",
-      "hero": "/img/projects/bridger/after-home.png",
+      "hero": "/img/projects/bridger/after-home.jpg",
       "client": "Bridger Heating & Cooling — HVAC company serving Bozeman, Montana since 1998 (direct client)",
       "role": "Lead UX Designer, Web Developer & Digital Marketing Strategist",
       "timeline": "October 2024",
@@ -752,8 +752,8 @@
           "title": "Redesign & Rebuild",
           "problem": "A 2007-era site couldn't represent a company that had been serving Bozeman for over 25 years — on any screen size.",
           "solution": "A ground-up redesign built as a custom Vue/Nuxt.js site: modern, fast, responsive, and structured around the two actions that matter for an HVAC business — call or send a service request.",
-          "image": "/img/projects/bridger/after-services.png",
-          "caption": "The rebuilt services page"
+          "image": "/img/projects/bridger/before-home.jpg",
+          "caption": "The site as it stood since 2007 — the starting point"
         },
         {
           "title": "Local Search Foundation",
@@ -792,6 +792,25 @@
           "label": "The Old Website",
           "href": "https://web.archive.org/web/20220518224037/http://www.bridgerheating.com/"
         }
+      ],
+      "galleries": [
+        {
+          "title": "Before & After",
+          "items": [
+            {
+              "src": "/img/projects/bridger/before-home.jpg",
+              "caption": "Before — unchanged since 2007"
+            },
+            {
+              "src": "/img/projects/bridger/after-home.jpg",
+              "caption": "After — the Vue/Nuxt rebuild"
+            },
+            {
+              "src": "/img/projects/bridger/after-services.jpg",
+              "caption": "After — services"
+            }
+          ]
+        }
       ]
     },
     {
@@ -799,7 +818,7 @@
       "kicker": "Case Study",
       "title": "Runner EDQ",
       "subtitle": "Five years as design lead for an enterprise data-quality suite — admin panels, end-user dashboards, and the sites that sold them.",
-      "hero": "/img/projects/runner/cleanemployee.png",
+      "hero": "/img/projects/runner/cleanemployee.jpg",
       "client": "Runner EDQ — enterprise data quality software. The CLEAN_Data suite verifies addresses and contact data inside ERPs like Oracle, PeopleSoft, and Ellucian Banner, for customers from universities to enterprise HR teams",
       "role": "Lead UX/UI Designer & Developer",
       "timeline": "2015 – 2020",
@@ -829,7 +848,9 @@
         {
           "title": "The Sites That Sold It",
           "problem": "Enterprise data quality is a hard product to explain — and the primary websites and campaigns were part of my desk too.",
-          "solution": "Designed and built the company's primary websites and product landing pages — like the CLEAN_Employee page above — plus the graphic design and marketing campaigns that supported sales."
+          "solution": "Designed and built the company's primary websites and product landing pages — like the CLEAN_Employee page above — plus the graphic design and marketing campaigns that supported sales.",
+          "image": "/img/projects/runner/runneredq-home.jpg",
+          "caption": "RunnerEDQ.com today"
         }
       ],
       "validation": [],
@@ -853,6 +874,21 @@
         {
           "label": "RunnerEDQ.com",
           "href": "https://www.runneredq.com"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "The Work",
+          "items": [
+            {
+              "src": "/img/projects/runner/cleanemployee-full.jpg",
+              "caption": "The CLEAN_Employee landing page, top to bottom — click to scroll"
+            },
+            {
+              "src": "/img/projects/runner/runneredq-home.jpg",
+              "caption": "RunnerEDQ.com"
+            }
+          ]
         }
       ]
     },
@@ -1097,7 +1133,7 @@
       "kicker": "Project",
       "title": "Chicago EV",
       "subtitle": "An informational site launched to meet a moment — Illinois' 2022 EV-charger rebate — for a new sibling of the Sievert companies.",
-      "hero": "/img/projects/chicagoev/home.png",
+      "hero": "/img/projects/chicagoev/home.jpg",
       "client": "Chicago EV — a sibling company of Sievert Electric and <a href=\"/projects/hoists.html\">Hoists.com</a>, offering EV-charging installation for large parking complexes, commercial properties, and multi-unit residential buildings",
       "role": "UX Research & Design, Front-End Development, Content, Technical SEO",
       "timeline": "2022",
@@ -1142,6 +1178,17 @@
           "label": "Hoists.com Case Study",
           "href": "/projects/hoists.html"
         }
+      ],
+      "galleries": [
+        {
+          "title": "The Site",
+          "items": [
+            {
+              "src": "/img/projects/chicagoev/home-full.jpg",
+              "caption": "The full page — rebate program, services, and products, top to bottom"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1149,7 +1196,7 @@
       "kicker": "The Freelance Studio",
       "title": "SilenceKillsDesign",
       "subtitle": "Seven years of independent practice — 70+ clients, hundreds of projects, every discipline in the stack.",
-      "hero": "/img/projects/skd/home.png",
+      "hero": "/img/projects/skd/home.jpg",
       "client": "SilenceKillsDesign — my own freelance studio: a full-service digital creative agency focused on development, design, SEO, and marketing",
       "role": "Founder — designer, developer, marketer, producer",
       "timeline": "2014 – 2021",
@@ -1209,6 +1256,21 @@
           "label": "SilenceKillsDesign.com",
           "href": "https://silencekillsdesign.com"
         }
+      ],
+      "galleries": [
+        {
+          "title": "The Studio Site",
+          "items": [
+            {
+              "src": "/img/projects/skd/portfolio.jpg",
+              "caption": "The studio portfolio"
+            },
+            {
+              "src": "/img/projects/skd/services.jpg",
+              "caption": "Services — the full-stack offering"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1216,7 +1278,7 @@
       "kicker": "Project",
       "title": "Keating Moore Construction",
       "subtitle": "A brand and website worthy of the houses — for a custom builder with 40 years of work and \"little left to prove.\"",
-      "hero": "/img/projects/keatingmoore/home.png",
+      "hero": "/img/projects/keatingmoore/home.jpg",
       "client": "Keating Moore Construction — custom home builder in the Jupiter, Florida area for more than 40 years; a preferred builder in communities like Lost Tree Village and Jupiter Hills Country Club",
       "role": "Brand, Wireframing, UX Design, Content Curation & Photo Editing",
       "timeline": "SilenceKillsDesign engagement",
@@ -1261,6 +1323,17 @@
         {
           "label": "The Old Website",
           "href": "https://web.archive.org/web/20190109225211/https://keatingmoore.com/"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "The Work, Full Bleed",
+          "items": [
+            {
+              "src": "/img/projects/keatingmoore/lost-tree-village.jpg",
+              "caption": "Lost Tree Village project page — the photography does the selling"
+            }
+          ]
         }
       ]
     },
