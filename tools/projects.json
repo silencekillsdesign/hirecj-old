@@ -1517,7 +1517,7 @@
           "title": "Urgency-first discovery",
           "problem": "Time-critical dogs get the same shelf position as every other listing.",
           "solution": "A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.",
-          "image": "/img/projects/floofer/match-deck.png",
+          "image": "/img/projects/floofer/match-deck.jpg",
           "caption": "The match deck — Bruno, 5 days left, 3 miles away",
           "narrow": true
         },
@@ -1530,7 +1530,7 @@
           "title": "Kind interaction rules",
           "problem": "One mis-tap on a 'pass' is a dog someone never sees again.",
           "solution": "No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.",
-          "image": "/img/projects/floofer/onboarding.png",
+          "image": "/img/projects/floofer/onboarding.jpg",
           "caption": "Sixty-second onboarding — fit questions, in plain language",
           "narrow": true
         }
@@ -1550,6 +1550,37 @@
         {
           "label": "View the Code",
           "href": "https://github.com/silencekillsdesign/floofer"
+        }
+      ],
+      "galleries": [
+        {
+          "title": "Final Designs",
+          "items": [
+            {
+              "src": "/img/projects/floofer/landing-full.jpg",
+              "caption": "The landing page, top to bottom — click to scroll"
+            },
+            {
+              "src": "/img/projects/floofer/app-match.jpg",
+              "caption": "The match deck",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/floofer/app-map.jpg",
+              "caption": "Pets near you — risk-coded map with at-risk filter",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/floofer/app-matches.jpg",
+              "caption": "Matches",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/floofer/app-account.jpg",
+              "caption": "Account — recovery code, no email required",
+              "narrow": true
+            }
+          ]
         }
       ]
     }
