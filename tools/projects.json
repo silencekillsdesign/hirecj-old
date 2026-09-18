@@ -1492,9 +1492,9 @@
       ]
     },
     {
-      "slug": "floofer",
+      "slug": "floofr",
       "kicker": "Case Study",
-      "title": "Floofer",
+      "title": "Floofr",
       "subtitle": "Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time.",
       "hero": "/img/floofer-mobile.png",
       "client": "Personal product — in development",
@@ -1509,7 +1509,7 @@
         "Nuxt 3"
       ],
       "challenge": [
-        "Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofer inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.",
+        "Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofr inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.",
         "The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home."
       ],
       "work": [
