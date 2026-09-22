@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <title>Floofr — CJ Williams</title>
-  <meta name="description" content="Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time." />
+  <meta name="description" content="Match. Meet. Save a life. A product built so the dogs closest to running out of time get seen first." />
   <meta property="og:title" content="Floofr — CJ Williams" />
-  <meta property="og:image" content="https://hirecj.com/img/floofer-mobile.png" />
+  <meta property="og:image" content="https://hirecj.com/img/projects/floofer/landing-desktop.jpg" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet" type="text/css" />
   <link href="/css/project.css?v=6" rel="stylesheet" type="text/css" />
   <script src="/js/lightbox.js?v=2" defer></script>
@@ -19,59 +19,85 @@
   </header>
 
   <main class="pp-main">
-    <p class="pp-kicker">Case Study</p>
+    <p class="pp-kicker">Flagship Case Study</p>
     <h1>Floofr</h1>
-    <p class="pp-subtitle">Swipe. Match. Save a life. An adoption app that surfaces the dogs closest to running out of time.</p>
+    <p class="pp-subtitle">Match. Meet. Save a life. A product built so the dogs closest to running out of time get seen first.</p>
 
-    <img class="pp-hero" src="/img/floofer-mobile.png" alt="Floofr" />
+    <img class="pp-hero" src="/img/projects/floofer/landing-desktop.jpg" alt="Floofr" />
 
     <dl class="pp-facts">
-      <div><dt>Client</dt><dd>Personal product — in development</dd></div>
-      <div><dt>Role</dt><dd>Product Designer & Developer</dd></div>
-      <div><dt>Timeline</dt><dd>2026 – In development</dd></div>
-      <div><dt>Team</dt><dd>Solo — product, design system, and front end</dd></div>
+      <div><dt>Client</dt><dd>Personal product, in active development — re-homing dogs at the highest risk of euthanization, surfacing at-risk animals first from no-kill shelters, fosters, individual homes, and pet retirement communities</dd></div>
+      <div><dt>Role</dt><dd>Founder — Product, Design & Engineering</dd></div>
+      <div><dt>Timeline</dt><dd>Jul 2026 – Present</dd></div>
+      <div><dt>Team</dt><dd>Solo: product strategy, design system, front end, and testing</dd></div>
     </dl>
 
-    <div class="pp-tags"><span class="pp-tag">Product Design</span><span class="pp-tag">Design Systems</span><span class="pp-tag">Mobile UX</span><span class="pp-tag">Figma</span><span class="pp-tag">Nuxt 3</span></div>
+    <div class="pp-tags"><span class="pp-tag">Product Strategy</span><span class="pp-tag">Product Design</span><span class="pp-tag">Design Systems</span><span class="pp-tag">Figma</span><span class="pp-tag">Nuxt 3 Development</span><span class="pp-tag">Testing & CI</span></div>
 
     <section>
       <h2>The Challenge</h2>
-      <p>Adoption sites rank dogs by recency and photogenics — which buries the dogs at highest euthanasia risk exactly when visibility matters most. Floofr inverts that: the deck surfaces at-risk dogs first, each carrying a visible days-remaining badge.</p>
-      <p>The second inversion: match on fit, not cuteness. Sixty seconds of onboarding — home, yard, kids, other pets, experience — lets the app rank dogs by how well they'd actually fit your home.</p>
+      <p>Adoption platforms sort dogs by recency and photogenics — which buries the animals closest to euthanasia exactly when visibility matters most. Floofr exists to invert that: at-risk dogs always surface first, sorted by days remaining. The data source was chosen for the mission — RescueGroups.org exposes real euthanasia-risk fields that mainstream aggregators ignore.</p>
+      <p>The second inversion is matching on fit instead of looks. Sixty seconds of onboarding feeds a five-axis compatibility model — energy, space, social needs, alone time, and training — scored between each dog's needs and the adopter's actual household, with a live match percentage everywhere a dog appears. A cute photo gets a dog clicked; a real fit gets a dog kept.</p>
+      <p>It's also a proof of range: one person carrying product strategy, a tokenized design system, a shipped Nuxt application, live shelter-API integrations, and an automated test suite — the full arc this portfolio is about.</p>
     </section>
 
     <section>
       <h2>What I Did</h2>
-      <div class="pp-work"><h3><span>01</span> Urgency-first discovery</h3><p class="pp-problem">Time-critical dogs get the same shelf position as every other listing.</p><p>A swipe deck ordered by risk, with a prominent countdown badge on every at-risk profile — chosen specifically because the RescueGroups.org API exposes euthanasia-date fields most aggregators ignore.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/floofer/match-deck.jpg" alt="The match deck — Bruno, 5 days left, 3 miles away" loading="lazy" /><figcaption>The match deck — Bruno, 5 days left, 3 miles away</figcaption></figure></div>
-      <div class="pp-work"><h3><span>02</span> A real design system first</h3><p class="pp-problem">Solo side projects usually skip the system and pay for it at every screen.</p><p>A full Figma library built before the screens: variables with dark/light modes mapped to CSS custom properties, and components for cards, chips, badges, pickers, navigation, and empty states — the app is assembled from it, not drawn ad hoc.</p></div>
-      <div class="pp-work"><h3><span>03</span> Kind interaction rules</h3><p class="pp-problem">One mis-tap on a 'pass' is a dog someone never sees again.</p><p>No destructive one-tap actions, full-screen pickers instead of fiddly dropdowns, and compact cards tuned through repeated hands-on preview passes.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/floofer/onboarding.jpg" alt="Sixty-second onboarding — fit questions, in plain language" loading="lazy" /><figcaption>Sixty-second onboarding — fit questions, in plain language</figcaption></figure></div>
+      <div class="pp-work"><h3><span>01</span> Urgency-First Discovery</h3><p class="pp-problem">Time-critical dogs get the same shelf position as every other listing, on every major platform.</p><p>The match deck deals at-risk dogs first, sorted by days remaining, each carrying a countdown badge. The map view tells the same story spatially — pulsing red pins for at-risk dogs, with a one-tap at-risk-only filter.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/floofer/app-match.jpg" alt="The deck — Bruno, 5 days left, dealt first" loading="lazy" /><figcaption>The deck — Bruno, 5 days left, dealt first</figcaption></figure></div>
+      <div class="pp-work"><h3><span>02</span> Pentagon Matching</h3><p class="pp-problem">“Good with kids” checkboxes don't predict whether a dog thrives in a fifth-floor walk-up with a cat and a 60-hour work week.</p><p>A five-axis compatibility model — energy, space, social, solo time, training — scored between each dog's needs and the household's answers, rendered as an overlaid pentagon chart on every bio and a live match ring on every card.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/floofer/figma/pentagon.jpg" alt="The pentagon — a dog's needs overlaid on your home's reality" loading="lazy" /><figcaption>The pentagon — a dog's needs overlaid on your home's reality</figcaption></figure></div>
+      <div class="pp-work"><h3><span>03</span> A Design System Generated From Code</h3><p class="pp-problem">Solo products drift: the app evolves and the design file fossilizes.</p><p>The Figma library is rebuilt from the shipped Nuxt codebase — 20 color variables in dark/light modes, layout and radius tokens, 9 text styles, and every component from icons to the deck card bound to variables with zero raw hex. The system is documented in the repo with a full rebuild procedure, so code stays the source of truth.</p><figure class="pp-fig"><img src="/img/projects/floofer/figma/components-sheet.jpg" alt="The component sheet — chips, deciders, facet triggers, risk badges, match rings, and the pentagon, all token-bound" loading="lazy" /><figcaption>The component sheet — chips, deciders, facet triggers, risk badges, match rings, and the pentagon, all token-bound</figcaption></figure></div>
+      <div class="pp-work"><h3><span>04</span> Flows That Respect the Stakes</h3><p class="pp-problem">One mis-tap on a pass is a dog someone never sees again — and adoption itself is a bureaucratic wall that loses adopters.</p><p>No destructive one-tap actions, full-screen pickers with predictive search, and flows that carry momentum past the match: in-app messaging with the rescue org, play-date scheduling, and Fast Pass — an adoption-readiness checklist that pre-clears an adopter before they fall for a dog.</p><figure class="pp-fig pp-narrow"><img src="/img/projects/floofer/figma/fastpass.jpg" alt="Fast Pass — readiness checklist, so approval never races the clock" loading="lazy" /><figcaption>Fast Pass — readiness checklist, so approval never races the clock</figcaption></figure></div>
+      <div class="pp-work"><h3><span>05</span> Built Like a Product, Not a Prototype</h3><p class="pp-problem">Portfolio apps usually stop at the happy path on demo data.</p><p>Live integrations with RescueGroups.org and Petfinder behind a data-source toggle with demo fallback; role-based accounts for adopters, shelters, fosters, rehoming, and retirement communities; error monitoring; and CI that runs the full test suite and a production build on every push.</p></div>
     </section>
 
     <section class="pp-cols">
       <div>
         <h3>How It Was Validated</h3>
-        <ul><li>Playwright smoke suite covering the core flows</li><li>Iterative element-by-element UX passes in live preview</li><li>Server-side proxies built for RescueGroups.org and Petfinder, with demo data powering development</li></ul>
+        <ul><li>85 unit tests across the matching engine, Fast Pass logic, play-date scheduling, and the shelter-API data mapper — all passing</li><li>Playwright smoke suite: landing conversion path, search deep-link into the filtered map, deck dealing, legal pages</li><li>CI runs vitest plus a full production build on every push and pull request</li><li>Screen-by-screen preview-driven UX passes on every surface</li></ul>
       </div>
       <div>
         <h3>After Launch</h3>
-        <ul><li>Next: live shelter data keys, then a public beta deploy</li><li>Design system documented with a full rebuild procedure in the repo</li></ul>
+        <ul><li>Live shelter data behind a toggle — RescueGroups.org (euthanasia-risk fields) and Petfinder (largest inventory), with demo data fallback</li><li>Sentry error monitoring wired into the client</li><li>Next: live API keys, then public beta</li></ul>
       </div>
     </section>
 
     <section>
       <h2>The Outcome</h2>
-      
-      <p class="pp-summary">An app with a thesis: visibility should follow urgency, and matches should follow fit. Built system-first — the Figma library and its dark/light token modes came before the first screen, and every component in the app traces back to it.</p>
+      <div class="pp-metrics"><div><strong>5-axis</strong><span>Pentagon compatibility matching between dog and household</span></div><div><strong>89</strong><span>Automated tests — 85 unit + 4 end-to-end, on CI</span></div><div><strong>2</strong><span>Live shelter APIs integrated behind one data toggle</span></div></div>
+      <p class="pp-summary">Floofr is the portfolio in miniature: a mission worth building (visibility should follow urgency), a product thesis (match on fit, not cuteness), a design system rebuilt from shipped code, and the engineering discipline — tests, CI, monitoring, live data — to make it real. Built alone, end to end.</p>
     </section>
 
     <section>
-      <h2>Final Designs</h2>
+      <h2>The Design System</h2>
+      <div class="pp-gallery">
+        <figure class=""><a href="/img/projects/floofer/figma/ds-cover.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/ds-cover.jpg" alt="The system cover — tokens, type, icons, components, marketing; generated from code, bound to variables" loading="lazy" /></a><figcaption>The system cover — tokens, type, icons, components, marketing; generated from code, bound to variables</figcaption></figure>
+        <figure class=""><a href="/img/projects/floofer/figma/deckcard.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/deckcard.jpg" alt="DeckCard states — idle, like, pass, with ±12° stamps" loading="lazy" /></a><figcaption>DeckCard states — idle, like, pass, with ±12° stamps</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/gallerycard.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/gallerycard.jpg" alt="GalleryCard — risk badge + match ring" loading="lazy" /></a><figcaption>GalleryCard — risk badge + match ring</figcaption></figure>
+        <figure class=""><a href="/img/projects/floofer/figma/bottomnav.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/bottomnav.jpg" alt="Bottom navigation — badge and gradient Plus pill" loading="lazy" /></a><figcaption>Bottom navigation — badge and gradient Plus pill</figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hi-Fi Screens in Figma</h2>
+      <div class="pp-gallery">
+        <figure class=""><a href="/img/projects/floofer/figma/screen-match.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/screen-match.jpg" alt="Match screen assembly — header, filter bar, and gallery, composed entirely from component instances" loading="lazy" /></a><figcaption>Match screen assembly — header, filter bar, and gallery, composed entirely from component instances</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/screen-petbio.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/screen-petbio.jpg" alt="Pet bio — countdown badge, fact chips, pentagon, decide pair" loading="lazy" /></a><figcaption>Pet bio — countdown badge, fact chips, pentagon, decide pair</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/screen-map.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/screen-map.jpg" alt="Map — glowing risk pins and legend" loading="lazy" /></a><figcaption>Map — glowing risk pins and legend</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/sheet-filters.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/sheet-filters.jpg" alt="Filter panel" loading="lazy" /></a><figcaption>Filter panel</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/sheet-message.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/sheet-message.jpg" alt="Message sheet — reply-to routed through the rescue org" loading="lazy" /></a><figcaption>Message sheet — reply-to routed through the rescue org</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/figma/sheet-playdate.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/figma/sheet-playdate.jpg" alt="Play-date scheduler" loading="lazy" /></a><figcaption>Play-date scheduler</figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Shipped — In the App</h2>
       <div class="pp-gallery">
         <figure class=""><a href="/img/projects/floofer/landing-full.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/landing-full.jpg" alt="The landing page, top to bottom — click to scroll" loading="lazy" /></a><figcaption>The landing page, top to bottom — click to scroll</figcaption></figure>
         <figure class="pp-narrow"><a href="/img/projects/floofer/app-match.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-match.jpg" alt="The match deck" loading="lazy" /></a><figcaption>The match deck</figcaption></figure>
-        <figure class="pp-narrow"><a href="/img/projects/floofer/app-map.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-map.jpg" alt="Pets near you — risk-coded map with at-risk filter" loading="lazy" /></a><figcaption>Pets near you — risk-coded map with at-risk filter</figcaption></figure>
-        <figure class="pp-narrow"><a href="/img/projects/floofer/app-matches.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-matches.jpg" alt="Matches" loading="lazy" /></a><figcaption>Matches</figcaption></figure>
-        <figure class="pp-narrow"><a href="/img/projects/floofer/app-account.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-account.jpg" alt="Account — recovery code, no email required" loading="lazy" /></a><figcaption>Account — recovery code, no email required</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/app-petbio.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-petbio.jpg" alt="Bruno's full bio — click to scroll" loading="lazy" /></a><figcaption>Bruno's full bio — click to scroll</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/app-map.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-map.jpg" alt="Pets near you — at-risk pins" loading="lazy" /></a><figcaption>Pets near you — at-risk pins</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/app-filters.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-filters.jpg" alt="Filters" loading="lazy" /></a><figcaption>Filters</figcaption></figure>
+        <figure class="pp-narrow"><a href="/img/projects/floofer/app-matches.jpg" target="_blank" rel="noopener"><img src="/img/projects/floofer/app-matches.jpg" alt="Matches, urgency-sorted" loading="lazy" /></a><figcaption>Matches, urgency-sorted</figcaption></figure>
       </div>
     </section>
 
