@@ -1586,6 +1586,25 @@
       ],
       "galleries": [
         {
+          "title": "Wireframes & User Flow",
+          "items": [
+            {
+              "src": "/img/projects/floofer/figma/wf-flow-strip.jpg",
+              "caption": "The core flow, end to end — register, onboarding, match deck, pet bio, map, filters, matches, profile"
+            },
+            {
+              "src": "/img/projects/floofer/figma/wf-match-deck.jpg",
+              "caption": "Match deck wireframe",
+              "narrow": true
+            },
+            {
+              "src": "/img/projects/floofer/figma/wf-pet-bio.jpg",
+              "caption": "Pet bio wireframe — pentagon planned from the first sketch",
+              "narrow": true
+            }
+          ]
+        },
+        {
           "title": "The Design System",
           "items": [
             {
